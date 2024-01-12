@@ -256,5 +256,137 @@
     "year": "2023",
     "quarter": "4",
     "count": "16"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "count": "145"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "count": "80"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "count": "56"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "1",
+    "count": "21"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "1",
+    "count": "2"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "2",
+    "count": "104"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "2",
+    "count": "74"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "2",
+    "count": "59"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "2",
+    "count": "17"
+  },
+  {
+    "name": "Alloy",
+    "year": "2022",
+    "quarter": "2",
+    "count": "1"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "3",
+    "count": "110"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "3",
+    "count": "78"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "3",
+    "count": "53"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "3",
+    "count": "10"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "3",
+    "count": "4"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "3",
+    "count": "2"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "4",
+    "count": "112"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "4",
+    "count": "65"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "4",
+    "count": "50"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "4",
+    "count": "16"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1"
   }
 ]

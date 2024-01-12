@@ -107,3 +107,19 @@ If you wish to quote, you may use the following BibTeX.
   howpublished = {\url{https://madnight.github.io/githut/#/}}
 }
 ```
+
+
+### Markus
+
+```shell
+$ cd scripts
+$ yarn install
+## Update year
+$ node query.js --tables "[githubarchive:year.2022]"
+
+$ cd ..
+$ yarn install --frozen-lockfile
+$ npm run build
+
+## Replace old content in gh-pages branch with content of newly created build/ directory.
+```
