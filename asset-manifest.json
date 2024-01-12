@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/githut/static/js/main.8195d056.js",
+    "main.js": "/githut/static/js/main.8b31ed65.js",
     "index.html": "/githut/index.html",
-    "main.8195d056.js.map": "/githut/static/js/main.8195d056.js.map"
+    "main.8b31ed65.js.map": "/githut/static/js/main.8b31ed65.js.map"
   },
   "entrypoints": [
-    "static/js/main.8195d056.js"
+    "static/js/main.8b31ed65.js"
   ]
 }
