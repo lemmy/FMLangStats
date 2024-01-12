@@ -53,25 +53,69 @@ const queryBuilder = (tables) => {
 
     /* eslint-disable no-useless-escape */
     const sqlQuery = (type) =>
-        ` SELECT name, year, quarter, SUM(count) AS count FROM (
-          SELECT language as name, year, quarter, actor.login, count FROM ( SELECT * FROM (
-          SELECT lang as language, y as year, q as quarter, type, actor.login,
-          COUNT(*) as count FROM (SELECT a.type type, actor.login, b.lang lang, a.y y, a.q q FROM (
-          SELECT type, actor.login, YEAR(created_at) as y, QUARTER(created_at) as q,
-          STRING(REGEXP_REPLACE(repo.url, r'https:\/\/github\.com\/|https:\/\/api\.github\.com\/repos\/', '')) as name
-          FROM ${tables} WHERE NOT LOWER(actor.login) LIKE "%bot%") a
-          JOIN ( SELECT repo_name as name, lang FROM ( SELECT * FROM (
-          SELECT *, ROW_NUMBER() OVER (PARTITION BY repo_name ORDER BY lang) as num FROM (
-          SELECT repo_name, FIRST_VALUE(language.name) OVER (
-          partition by repo_name order by language.bytes DESC) AS lang
-          FROM [bigquery-public-data:github_repos.languages]))
-          WHERE num = 1 order by repo_name)
-          WHERE lang != 'null') b ON a.name = b.name)
-          GROUP by type, language, year, quarter, actor.login
-          ORDER by year, quarter, count DESC)
-          WHERE count <= 1000) WHERE type = '${type}')
-          GROUP BY name, year, quarter
-          ORDER BY year, quarter, count DESC LIMIT 100`
+    ` SELECT name, year, quarter, SUM(count) AS count 
+    FROM (
+        SELECT language as name, year, quarter, actor.login, count 
+        FROM ( 
+            SELECT * 
+            FROM (
+                SELECT lang as language, y as year, q as quarter, type, actor.login, COUNT(*) as count 
+                FROM (
+                    SELECT a.type type, actor.login, b.lang lang, a.y y, a.q q 
+                    FROM (
+                        SELECT type, actor.login, YEAR(created_at) as y, QUARTER(created_at) as q, STRING(REGEXP_REPLACE(repo.url, r'https:\/\/github\.com\/|https:\/\/api\.github\.com\/repos\/', '')) as name 
+                        FROM ${tables} 
+                        WHERE NOT LOWER(actor.login) LIKE "%bot%"
+                    ) a
+                    JOIN (
+                        SELECT repo_name as name, lang 
+                        FROM ( 
+                            SELECT * 
+                            FROM (
+                                SELECT *, ROW_NUMBER() OVER (PARTITION BY repo_name ORDER BY lang) as num 
+                                FROM (
+                                    SELECT repo_name, FIRST_VALUE(language.name) OVER (partition by repo_name order by language.bytes DESC) AS lang 
+                                    FROM [bigquery-public-data:github_repos.languages]
+                                )
+                            )
+                            WHERE num = 1 
+                            ORDER BY repo_name
+                        )
+                        WHERE lang != 'null'
+                    ) b ON a.name = b.name
+                )
+                GROUP BY type, language, year, quarter, actor.login
+                ORDER BY year, quarter, count DESC
+            )
+        ) 
+        WHERE type = '${type}'
+    )
+    WHERE name IN ('Lean', 'Coq', 'Alloy', 'TLA', 'F*', 'Dafny', 'Boogie', 'SMT')
+    GROUP BY name, year, quarter
+    ORDER BY year, quarter, count DESC;`
+    
+
+
+    // const sqlQuery = (type) =>
+        // ` SELECT name, year, quarter, SUM(count) AS count FROM (
+        //   SELECT language as name, year, quarter, actor.login, count FROM ( SELECT * FROM (
+        //   SELECT lang as language, y as year, q as quarter, type, actor.login,
+        //   COUNT(*) as count FROM (SELECT a.type type, actor.login, b.lang lang, a.y y, a.q q FROM (
+        //   SELECT type, actor.login, YEAR(created_at) as y, QUARTER(created_at) as q,
+        //   STRING(REGEXP_REPLACE(repo.url, r'https:\/\/github\.com\/|https:\/\/api\.github\.com\/repos\/', '')) as name
+        //   FROM ${tables} WHERE NOT LOWER(actor.login) LIKE "%bot%") a
+        //   JOIN ( SELECT repo_name as name, lang FROM ( SELECT * FROM (
+        //   SELECT *, ROW_NUMBER() OVER (PARTITION BY repo_name ORDER BY lang) as num FROM (
+        //   SELECT repo_name, FIRST_VALUE(language.name) OVER (
+        //   partition by repo_name order by language.bytes DESC) AS lang
+        //   FROM [bigquery-public-data:github_repos.languages]))
+        //   WHERE num = 1 order by repo_name)
+        //   WHERE lang IN ('Lean', 'TLA')) b ON a.name = b.name)
+        //   GROUP by type, language, year, quarter, actor.login
+        //   ORDER by year, quarter, count DESC)
+        //   WHERE count <= 1000) WHERE type = '${type}')
+        //   GROUP BY name, year, quarter
+        //   ORDER BY year, quarter, count DESC LIMIT 100`
     /* eslint-enable no-useless-escape */
     return map(sqlQuery)(types)
 }
@@ -101,7 +145,7 @@ const main = async () => {
         .parse(process.argv)
 
     const tables = defaultTo(
-        "[githubarchive:day.20130118], [githubarchive:day.20140118]"
+        "[githubarchive:day.20220118], [githubarchive:day.20230118]"
     )(param.tables)
     const queries = queryBuilder(tables)
 
