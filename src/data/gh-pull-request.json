@@ -322,5 +322,299 @@
     "year": "2023",
     "quarter": "1",
     "count": "3"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "count": "1875"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "count": "107"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "count": "61"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "1",
+    "count": "2"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "2",
+    "count": "1921"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "2",
+    "count": "148"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "2",
+    "count": "99"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "2",
+    "count": "4"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "3",
+    "count": "1654"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "3",
+    "count": "126"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "3",
+    "count": "79"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "3",
+    "count": "19"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "3",
+    "count": "1"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1287"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "4",
+    "count": "105"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "4",
+    "count": "89"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "4",
+    "count": "21"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "1",
+    "count": "3"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "1",
+    "count": "643"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "1",
+    "count": "164"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "1",
+    "count": "77"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "1",
+    "count": "25"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "1",
+    "count": "3"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "2",
+    "count": "486"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "2",
+    "count": "161"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "2",
+    "count": "120"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "2",
+    "count": "20"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "2",
+    "count": "1"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "3",
+    "count": "140"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "3",
+    "count": "122"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "3",
+    "count": "87"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "3",
+    "count": "17"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "4",
+    "count": "155"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "4",
+    "count": "154"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "4",
+    "count": "51"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "4",
+    "count": "43"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "count": "575"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "count": "24"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "count": "15"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "count": "592"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "count": "21"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "count": "12"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "1",
+    "count": "1"
+  },
+  {
+    "name": "F*",
+    "year": "2017",
+    "quarter": "2",
+    "count": "54"
+  },
+  {
+    "name": "Coq",
+    "year": "2017",
+    "quarter": "2",
+    "count": "23"
+  },
+  {
+    "name": "Lean",
+    "year": "2017",
+    "quarter": "2",
+    "count": "1"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "4",
+    "count": "19"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "4",
+    "count": "19"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "4",
+    "count": "1"
   }
 ]

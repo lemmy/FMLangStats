@@ -112,14 +112,21 @@ If you wish to quote, you may use the following BibTeX.
 ### Markus
 
 ```shell
-$ cd scripts
+$ cd scripts/
 $ yarn install
-## Update year
+## Update year in tables
 $ node query.js --tables "[githubarchive:year.2022]"
 
+## Commit updated src/data/*.json files
 $ cd ..
+$ git commit -am 'year 20xx'
+
+## Regenerate gh-pages from newly collected data.
 $ yarn install --frozen-lockfile
 $ npm run build
 
 ## Replace old content in gh-pages branch with content of newly created build/ directory.
+$ mv build/* .
+$ git add static/*
+$ git commit -am 'year 20xx'
 ```
