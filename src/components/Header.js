@@ -18,7 +18,7 @@ export default function Header() {
                 <h2>A small place to discover languages in GitHub</h2>
             </div>
             <GitHubForkRibbon
-                href="//github.com/madnight/githut"
+                href="//github.com/lemmy/FMLangStats"
                 color="black"
                 target="_blank"
                 position="right"

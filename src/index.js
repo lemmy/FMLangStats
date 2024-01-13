@@ -10,15 +10,13 @@ import Layout from "components/Layout"
 import { getMaxDataDate } from "common/utils.js"
 import { hydrate, render } from "react-dom"
 
-const production = window.location.href.includes("madnight.github.io")
-
 const main = async () => {
     const { year, quarter } = await getMaxDataDate()
     const defaultPath = "#/pull_requests/" + year + "/" + quarter
     const loc = window.location.href
-    const validUrlParams = ["pull_requests", "pushes", "stars", "issues"]
+    const validUrlParams = ["total", "pull_requests", "pushes", "stars", "issues"]
     const isValidURL = validUrlParams.some((v) => loc.includes(v))
-    const url = (production ? "/githut/" : "/") + defaultPath
+    const url = "/FMLangStats/" + defaultPath
 
     if (!isValidURL) {
         window.history.pushState("", "", url)

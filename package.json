@@ -4,10 +4,10 @@
   "license": "ISC",
   "version": "0.1.39",
   "description": "githut2",
-  "homepage": "https://madnight.github.io/githut",
+  "homepage": "https://lemmy.github.io/FMLangStats",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madnight/github-stats.git"
+    "url": "git+https://github.com/lemmy/FMLangStats.git"
   },
   "scripts": {
     "build": "NODE_ENV=production react-scripts build",
