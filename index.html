@@ -28,7 +28,7 @@
     />
     <script
       defer="defer"
-      src="/githut/static/js/main.52957c31.js"
+      src="/FMLangStats/static/js/main.a9873a5c.js"
     ></script></head
   ><style>
     html {
@@ -787,33 +787,4 @@
   <body>
     <div id="root"></div>
   </body>
-  <script>
-    var disqus_config = function () {
-      ;(this.page.url = "https://madnight.github.io/githut"),
-        (this.page.identifier = "githut2")
-    }
-    function loadDisqus() {
-      var t = document,
-        e = t.createElement("script")
-      ;(e.src = "https://githut2.disqus.com/embed.js"),
-        e.setAttribute("data-timestamp", +new Date()),
-        (t.head || t.body).appendChild(e)
-    }
-    function lazyLoadDisqus() {
-      if (
-        "IntersectionObserver" in window &&
-        "IntersectionObserverEntry" in window &&
-        "isIntersecting" in window.IntersectionObserverEntry.prototype
-      ) {
-        const t = new IntersectionObserver(function (e) {
-          for (const n of e)
-            n.isIntersecting && (loadDisqus(), t.unobserve(n.target))
-        })
-        t.observe(document.getElementById("disqus_thread"))
-      } else loadDisqus()
-    }
-    window.addEventListener("DOMContentLoaded", function () {
-      lazyLoadDisqus()
-    })
-  </script>
 </html>
