@@ -23,7 +23,7 @@ const query = (sql) => {
 }
 
 const writeJsonToFile = (q) => async (j) => {
-    const fN = "../src/data/gh-all-event.json"
+    const fN = "../src/data/gh-total-event.json"
     fs.readFile(fN, (err, data) => {
         // data is the content of the existing file, not the query result.
         const json = JSON.parse(data)

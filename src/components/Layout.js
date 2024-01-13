@@ -30,7 +30,7 @@ import DownloadButton from "./DownloadButton";
 export default function Layout() {
 
     const table = useReducer(TableReducer, {});
-    const hist = useReducer(HistReducer, { year: "2020", quarter: "1" });
+    const hist = useReducer(HistReducer, { year: "2017", quarter: "1" });
     const event = useReducer(EventReducer, {
         data: totalEvent,
         name: "Total Requests",

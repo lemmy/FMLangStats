@@ -25,7 +25,7 @@ export default function Select(props) {
         getMaxDataDate().then((maxDate) => {
             setState({
                 ...state,
-                options: year ? vals(2020, maxDate.year) : vals(1, 4),
+                options: year ? vals(2017, maxDate.year) : vals(1, 4),
                 value: year
                     ? props.match.params.year
                     : props.match.params.quarter,

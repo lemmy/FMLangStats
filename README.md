@@ -117,6 +117,7 @@ $ cd scripts/
 $ yarn install
 ## Update year in tables
 $ node query.js --table "githubarchive.year.2024"
+$ node removeDuplicates.js
 $ node postProcess.js
 
 ## Commit updated src/data/*.json files
