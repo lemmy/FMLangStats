@@ -10,7 +10,6 @@ const query = (sql) => {
         query: sql,
         timeoutMs: 1000000,
         useLegacySql: false,
-        
     }
 
     const options = {
@@ -23,12 +22,8 @@ const query = (sql) => {
     return client
 }
 
-const getAppendFileName = (eventName) => {
-    return "gh-all.json"
-}
-
 const writeJsonToFile = (q) => async (j) => {
-    const fN = "../src/data/" + getAppendFileName(q)
+    const fN = "../src/data/gh-all-event.json"
     fs.readFile(fN, (err, data) => {
         // data is the content of the existing file, not the query result.
         const json = JSON.parse(data)
@@ -40,8 +35,8 @@ const writeJsonToFile = (q) => async (j) => {
     })
 }
 
-const queryBuilder = (tables) => {
-    const types = ["PullRequestEvent"]
+const queryBuilder = (table) => {
+    const types = [""]
 
     /* eslint-disable no-useless-escape */
     const sqlQuery = (type) =>
@@ -49,13 +44,14 @@ const queryBuilder = (tables) => {
         language.name AS name,
         EXTRACT(YEAR FROM e.created_at) as year,
         EXTRACT(QUARTER FROM e.created_at) as quarter,
-        COUNTIF(e.type = 'PullEvent') AS pull_events,
+        COUNTIF(e.type = 'PullRequestEvent') AS pull_events,
         COUNTIF(e.type = 'PushEvent') AS push_events,
         COUNTIF(e.type = 'IssuesEvent') AS issue_events,
-        COUNTIF(e.type = 'WatchEvent') AS star_events
+        COUNTIF(e.type = 'WatchEvent') AS star_events,
+        COUNTIF(e.type IN ('PullRequestEvent', 'PushEvent', 'IssuesEvent', 'WatchEvent')) AS total_events
     FROM \`bigquery-public-data.github_repos.languages\` l, UNNEST(l.language) as language
     JOIN 
-        \`githubarchive.year.2023\` e
+        \`${table}\` e
     ON 
         l.repo_name = e.repo.name
     WHERE 
@@ -85,16 +81,16 @@ const main = async () => {
     param
         .version("1.0.0")
         .option(
-            "-t, --tables <string>",
-            "The GitHub Archive tables that you want query example usage:" +
-                'node query.js -t "[githubarchive:day.20130818], [githubarchive:day.20140118]"'
+            "-t, --table <string>",
+            "The GitHub Archive table that you want query example usage:" +
+                'node query.js -t "githubarchive.year.2023"'
         )
         .parse(process.argv)
 
-    const tables = defaultTo(
-        "[githubarchive:day.20220118], [githubarchive:day.20230118]"
-    )(param.tables)
-    const queries = queryBuilder(tables)
+    const table = defaultTo(
+        "githubarchive.year.2023"
+    )(param.table)
+    const queries = queryBuilder(table)
 
     try {
         await Promise.all(map(exec)(queries))
@@ -103,38 +99,6 @@ const main = async () => {
             "Error while querying the BigQuery Google API " + err + "\n"
         )
     }
-    
-    // Read JSON data from file
-    const jsonData = JSON.parse(fs.readFileSync('../src/data/gh-all.json', 'utf8'));
-
-    // Process the data
-    splitEvents(jsonData);
-}
-
-function splitEvents(jsonData) {
-    const pullEvents = [];
-    const pushEvents = [];
-    const issueEvents = [];
-    const starEvents = [];
-
-    jsonData.forEach(item => {
-        const { name, year, quarter } = item;
-        
-        pullEvents.push({ name, year, quarter, count: item.pull_events });
-        pushEvents.push({ name, year, quarter, count: item.push_events });
-        issueEvents.push({ name, year, quarter, count: item.issue_events });
-        starEvents.push({ name, year, quarter, count: item.star_events });
-    });
-
-    const pullEventsJson = JSON.stringify(pullEvents, null, 2);
-    const pushEventsJson = JSON.stringify(pushEvents, null, 2);
-    const issueEventsJson = JSON.stringify(issueEvents, null, 2);
-    const starEventsJson = JSON.stringify(starEvents, null, 2);
-
-    fs.writeFileSync('../src/data/gh-pull-request.json', pullEventsJson);
-    fs.writeFileSync('../src/data/gh-push-event.json', pushEventsJson);
-    fs.writeFileSync('../src/data/gh-issue-event.json', issueEventsJson);
-    fs.writeFileSync('../src/data/gh-star-event.json', starEventsJson);
 }
 
 main()

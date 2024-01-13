@@ -112,10 +112,12 @@ If you wish to quote, you may use the following BibTeX.
 ### Markus
 
 ```shell
+$ export GCLOUD_PROJECT=githubfmlangstats
 $ cd scripts/
 $ yarn install
 ## Update year in tables
-$ node query.js --tables "[githubarchive:year.2022]"
+$ node query.js --table "githubarchive.year.2024"
+$ node postProcess.js
 
 ## Commit updated src/data/*.json files
 $ cd ..

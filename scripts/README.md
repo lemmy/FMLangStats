@@ -1,10 +1,9 @@
 # Setup
 
 ```bash
-gcloud beta auth application-default login
+gcloud auth application-default login
 # Set the GCLOUD_PROJECT and GOOGLE_APPLICATION_CREDENTIALS environment variables.
-export GCLOUD_PROJECT=coral-firefly-151914
-export GOOGLE_APPLICATION_CREDENTIALS=$HOME/.config/gcloud/application_default_credentials.json
+export GCLOUD_PROJECT=githubfmlangstats
 yarn install
 ```
 
