@@ -10,6 +10,7 @@ import { Button as MaterialButton } from "react-materialize"
 export default function Button({ match, store, history, title }) {
 
     const [state, setState] = useState([
+        "total",
         "pushes",
         "stars",
         "issues",

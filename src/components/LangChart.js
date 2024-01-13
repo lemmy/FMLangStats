@@ -43,7 +43,7 @@ export default function LangChart(props) {
                             (quarter) => (quarter === 1 ? year.toString() : ""),
                             _.range(1, 5)
                         ),
-                    _.range(2012, 2050)
+                    _.range(2020, 2050)
                 )
             )
         )

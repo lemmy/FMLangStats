@@ -13,9 +13,9 @@ export default function Header() {
         <div id="wrapper">
             <div id="header">
                 <h1>
-                    Git<b>Hut 2.0</b>
+                    Git<b>FM Hut</b>
                 </h1>
-                <h2>A small place to discover languages in GitHub</h2>
+                <h2>A small place to discover formal languages on GitHub</h2>
             </div>
             <GitHubForkRibbon
                 href="//github.com/lemmy/FMLangStats"

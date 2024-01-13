@@ -11,17 +11,16 @@ import { useReducer } from "react";
 import { Route } from "react-router-dom"
 import LangChart from "components/LangChart"
 import LangTable from "components/LangTable"
-import LicensePie from "components/LicensePie"
 import Button from "components/Button"
 import Head from "components/Head"
 import Header from "components/Header"
 import Content from "components/Content"
-import Comments from "components/Comments"
 import Footer from "components/Footer"
 import Select from "components/Select"
 import EventReducer from "reducers/EventReducer"
 import TableReducer  from "reducers/TableReducer"
 import HistReducer  from "reducers/HistReducer"
+import totalEvent from "data/gh-total-event.json"
 import pullRequests from "data/gh-pull-request.json"
 import pushEvent from "data/gh-push-event.json"
 import starEvent from "data/gh-star-event.json"
@@ -31,10 +30,11 @@ import DownloadButton from "./DownloadButton";
 export default function Layout() {
 
     const table = useReducer(TableReducer, {});
-    const hist = useReducer(HistReducer, { year: "2018", quarter: "1" });
+    const hist = useReducer(HistReducer, { year: "2020", quarter: "1" });
     const event = useReducer(EventReducer, {
-        data: pullRequests,
-        name: "Pull Requests",
+        data: totalEvent,
+        name: "Total Requests",
+        totalEvent,
         pullRequests,
         pushEvent,
         starEvent,
@@ -56,6 +56,7 @@ export default function Layout() {
                             table={table}
                         />
                         <div className="rowCenterGap"> 
+                            <Button {...route} store={event} title="total"/>
                             <Button {...route} store={event} title="pull_requests"/>
                             <Button {...route} store={event} title="stars"/>
                             <Button {...route} store={event} title="pushes"/>
@@ -76,9 +77,7 @@ export default function Layout() {
                     </div>
                 )}
             />
-            <LicensePie />
             <Content />
-            <Comments />
             <Footer />
         </div>
     )

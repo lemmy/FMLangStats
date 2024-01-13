@@ -2,6 +2,7 @@ import MaterialButton from "react-materialize/lib/Button";
 import { useState } from "react";
 import pullRequests from "data/gh-pull-request.json"
 import issueEvent from "data/gh-issue-event.json"
+import totalEvent from "data/gh-total-event.json"
 import pushEvent from "data/gh-push-event.json"
 import licenses from "data/github-licenses.json"
 import starEvent from "data/gh-star-event.json"
@@ -34,6 +35,7 @@ export default function DownloadButton({ _match, _store, _history }) {
     }
     
     const jsonFiles = {
+        "gh-total-event.json": totalEvent,
         "gh-issue-event.json": issueEvent,
         "gh-push-event.json": pushEvent,
         "github-licenses.json": licenses,

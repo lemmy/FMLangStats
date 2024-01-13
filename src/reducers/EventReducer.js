@@ -6,6 +6,8 @@
  */
 export default function eventReducer(state, action) {
     switch (action.type) {
+        case "total":
+            return { ...state, name: "Total", data: state.totalEvent }
         case "pull_requests":
             return { ...state, name: "Pull Request", data: state.pullRequests }
         case "stars":
