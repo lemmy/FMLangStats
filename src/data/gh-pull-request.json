@@ -468,28 +468,10 @@
     "count": "574"
   },
   {
-    "name": "TLA",
-    "year": "2023",
-    "quarter": "1",
-    "count": "1"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2023",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
     "name": "Isabelle",
     "year": "2022",
     "quarter": "4",
     "count": "93"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "1",
-    "count": "0"
   },
   {
     "name": "Boogie",
@@ -652,12 +634,6 @@
     "year": "2022",
     "quarter": "3",
     "count": "5155"
-  },
-  {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "1",
-    "count": "0"
   },
   {
     "name": "Lean",
@@ -841,12 +817,6 @@
   },
   {
     "name": "Coq",
-    "year": "2024",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "Isabelle",
     "year": "2024",
     "quarter": "1",
     "count": "0"

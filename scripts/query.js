@@ -48,7 +48,7 @@ const queryBuilder = (table) => {
         COUNTIF(e.type = 'PushEvent') AS push_events,
         COUNTIF(e.type = 'IssuesEvent') AS issue_events,
         COUNTIF(e.type = 'WatchEvent') AS star_events,
-        COUNTIF(e.type IN ('PullRequestEvent', 'PushEvent', 'IssuesEvent', 'WatchEvent')) AS total_events
+        COUNTIF(e.type IN ('PullRequestEvent', 'PushEvent', 'IssuesEvent', 'WatchEvent')) AS count
     FROM \`bigquery-public-data.github_repos.languages\` l, UNNEST(l.language) as language
     JOIN 
         \`${table}\` e

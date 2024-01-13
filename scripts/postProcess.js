@@ -30,7 +30,7 @@ function splitEvents(jsonData) {
 }
 
 // Read JSON data from file
-const jsonData = JSON.parse(fs.readFileSync('../src/data/gh-all-event.json', 'utf8'));
+const jsonData = JSON.parse(fs.readFileSync('../src/data/gh-total-event.json', 'utf8'));
 
 // Process the data
 splitEvents(jsonData);
