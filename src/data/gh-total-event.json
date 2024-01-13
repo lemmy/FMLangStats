@@ -30,16 +30,6 @@
     "count": "18230"
   },
   {
-    "name": "Coq",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "575",
-    "push_events": "1271",
-    "issue_events": "314",
-    "star_events": "407",
-    "count": "2567"
-  },
-  {
     "name": "Dafny",
     "year": "2020",
     "quarter": "3",
@@ -120,16 +110,6 @@
     "count": "320"
   },
   {
-    "name": "TLA",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "540",
-    "push_events": "4645",
-    "issue_events": "120",
-    "star_events": "321",
-    "count": "5626"
-  },
-  {
     "name": "F*",
     "year": "2020",
     "quarter": "3",
@@ -150,16 +130,6 @@
     "count": "14655"
   },
   {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "146",
-    "push_events": "303",
-    "issue_events": "179",
-    "star_events": "222",
-    "count": "850"
-  },
-  {
     "name": "Isabelle",
     "year": "2020",
     "quarter": "4",
@@ -168,26 +138,6 @@
     "issue_events": "190",
     "star_events": "783",
     "count": "1627"
-  },
-  {
-    "name": "Lean",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "1140",
-    "push_events": "4317",
-    "issue_events": "109",
-    "star_events": "533",
-    "count": "6099"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "52",
-    "push_events": "53",
-    "issue_events": "29",
-    "star_events": "41",
-    "count": "175"
   },
   {
     "name": "Dafny",
@@ -218,26 +168,6 @@
     "issue_events": "0",
     "star_events": "7",
     "count": "9"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "61",
-    "push_events": "170",
-    "issue_events": "54",
-    "star_events": "267",
-    "count": "552"
-  },
-  {
-    "name": "F*",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "79",
-    "push_events": "222",
-    "issue_events": "74",
-    "star_events": "98",
-    "count": "473"
   },
   {
     "name": "Lean",
@@ -340,16 +270,6 @@
     "count": "1283"
   },
   {
-    "name": "Dafny",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "0",
-    "issue_events": "0",
-    "star_events": "7",
-    "count": "7"
-  },
-  {
     "name": "Lean",
     "year": "2020",
     "quarter": "1",
@@ -450,16 +370,6 @@
     "count": "967"
   },
   {
-    "name": "TLA",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "8",
-    "push_events": "0",
-    "issue_events": "0",
-    "star_events": "12",
-    "count": "20"
-  },
-  {
     "name": "Coq",
     "year": "2021",
     "quarter": "2",
@@ -550,16 +460,6 @@
     "count": "1327"
   },
   {
-    "name": "Coq",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "1",
-    "push_events": "3",
-    "issue_events": "0",
-    "star_events": "9",
-    "count": "13"
-  },
-  {
     "name": "Lean",
     "year": "2021",
     "quarter": "4",
@@ -610,16 +510,6 @@
     "count": "1643"
   },
   {
-    "name": "F*",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "1",
-    "push_events": "4",
-    "issue_events": "0",
-    "star_events": "1",
-    "count": "6"
-  },
-  {
     "name": "Coq",
     "year": "2021",
     "quarter": "1",
@@ -628,16 +518,6 @@
     "issue_events": "1064",
     "star_events": "1248",
     "count": "7930"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "6",
-    "issue_events": "0",
-    "star_events": "6",
-    "count": "12"
   },
   {
     "name": "Lean",
@@ -728,26 +608,6 @@
     "issue_events": "54",
     "star_events": "94",
     "count": "332"
-  },
-  {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "1",
-    "push_events": "0",
-    "issue_events": "1",
-    "star_events": "0",
-    "count": "2"
-  },
-  {
-    "name": "Lean",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "29",
-    "push_events": "166",
-    "issue_events": "0",
-    "star_events": "14",
-    "count": "209"
   },
   {
     "name": "Dafny",
@@ -980,16 +840,6 @@
     "count": "4926"
   },
   {
-    "name": "Coq",
-    "year": "2023",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "1",
-    "issue_events": "0",
-    "star_events": "1",
-    "count": "2"
-  },
-  {
     "name": "TLA",
     "year": "2022",
     "quarter": "4",
@@ -1028,16 +878,6 @@
     "issue_events": "4",
     "star_events": "3",
     "count": "15"
-  },
-  {
-    "name": "Lean",
-    "year": "2023",
-    "quarter": "1",
-    "pull_events": "3",
-    "push_events": "4",
-    "issue_events": "0",
-    "star_events": "1",
-    "count": "8"
   },
   {
     "name": "Lean",
@@ -1171,16 +1011,6 @@
   },
   {
     "name": "TLA",
-    "year": "2024",
-    "quarter": "1",
-    "pull_events": "1",
-    "push_events": "0",
-    "issue_events": "0",
-    "star_events": "2",
-    "count": "3"
-  },
-  {
-    "name": "TLA",
     "year": "2023",
     "quarter": "2",
     "pull_events": "978",
@@ -1250,16 +1080,6 @@
     "count": "1023"
   },
   {
-    "name": "Boogie",
-    "year": "2024",
-    "quarter": "1",
-    "pull_events": "2",
-    "push_events": "4",
-    "issue_events": "0",
-    "star_events": "0",
-    "count": "6"
-  },
-  {
     "name": "SMT",
     "year": "2023",
     "quarter": "4",
@@ -1320,16 +1140,6 @@
     "count": "793"
   },
   {
-    "name": "Lean",
-    "year": "2024",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "2",
-    "issue_events": "0",
-    "star_events": "1",
-    "count": "3"
-  },
-  {
     "name": "SMT",
     "year": "2023",
     "quarter": "1",
@@ -1358,16 +1168,6 @@
     "issue_events": "327",
     "star_events": "292",
     "count": "9006"
-  },
-  {
-    "name": "Coq",
-    "year": "2024",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "0",
-    "issue_events": "2",
-    "star_events": "0",
-    "count": "2"
   },
   {
     "name": "Dafny",
