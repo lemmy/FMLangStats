@@ -1,0 +1,1532 @@
+[
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "888",
+    "push_events": "1880",
+    "issue_events": "859",
+    "star_events": "732",
+    "total_events": "4359"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "1392",
+    "push_events": "3317",
+    "issue_events": "756",
+    "star_events": "935",
+    "total_events": "6400"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "1207",
+    "push_events": "15668",
+    "issue_events": "354",
+    "star_events": "1001",
+    "total_events": "18230"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "575",
+    "push_events": "1271",
+    "issue_events": "314",
+    "star_events": "407",
+    "total_events": "2567"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "0",
+    "push_events": "2",
+    "issue_events": "0",
+    "star_events": "8",
+    "total_events": "10"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "2033",
+    "push_events": "4376",
+    "issue_events": "1182",
+    "star_events": "1334",
+    "total_events": "8925"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "70",
+    "push_events": "255",
+    "issue_events": "97",
+    "star_events": "501",
+    "total_events": "923"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "1598",
+    "push_events": "3489",
+    "issue_events": "885",
+    "star_events": "1242",
+    "total_events": "7214"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "278",
+    "push_events": "1105",
+    "issue_events": "319",
+    "star_events": "296",
+    "total_events": "1998"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "97",
+    "push_events": "460",
+    "issue_events": "165",
+    "star_events": "696",
+    "total_events": "1418"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "129",
+    "push_events": "369",
+    "issue_events": "214",
+    "star_events": "735",
+    "total_events": "1447"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "74",
+    "push_events": "83",
+    "issue_events": "69",
+    "star_events": "94",
+    "total_events": "320"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "540",
+    "push_events": "4645",
+    "issue_events": "120",
+    "star_events": "321",
+    "total_events": "5626"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "202",
+    "push_events": "870",
+    "issue_events": "254",
+    "star_events": "227",
+    "total_events": "1553"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "2357",
+    "push_events": "10977",
+    "issue_events": "286",
+    "star_events": "1035",
+    "total_events": "14655"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "146",
+    "push_events": "303",
+    "issue_events": "179",
+    "star_events": "222",
+    "total_events": "850"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "139",
+    "push_events": "515",
+    "issue_events": "190",
+    "star_events": "783",
+    "total_events": "1627"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "1140",
+    "push_events": "4317",
+    "issue_events": "109",
+    "star_events": "533",
+    "total_events": "6099"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "52",
+    "push_events": "53",
+    "issue_events": "29",
+    "star_events": "41",
+    "total_events": "175"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "0",
+    "push_events": "2",
+    "issue_events": "0",
+    "star_events": "7",
+    "total_events": "9"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "155",
+    "push_events": "663",
+    "issue_events": "162",
+    "star_events": "207",
+    "total_events": "1187"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "0",
+    "push_events": "2",
+    "issue_events": "0",
+    "star_events": "7",
+    "total_events": "9"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "61",
+    "push_events": "170",
+    "issue_events": "54",
+    "star_events": "267",
+    "total_events": "552"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "79",
+    "push_events": "222",
+    "issue_events": "74",
+    "star_events": "98",
+    "total_events": "473"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "2925",
+    "push_events": "11056",
+    "issue_events": "288",
+    "star_events": "1863",
+    "total_events": "16132"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "1448",
+    "push_events": "16614",
+    "issue_events": "330",
+    "star_events": "857",
+    "total_events": "19249"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "98",
+    "push_events": "92",
+    "issue_events": "60",
+    "star_events": "131",
+    "total_events": "381"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "2004",
+    "push_events": "4417",
+    "issue_events": "997",
+    "star_events": "1268",
+    "total_events": "8686"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "479",
+    "push_events": "1412",
+    "issue_events": "423",
+    "star_events": "517",
+    "total_events": "2831"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "87",
+    "push_events": "69",
+    "issue_events": "88",
+    "star_events": "84",
+    "total_events": "328"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "4",
+    "pull_events": "497",
+    "push_events": "1026",
+    "issue_events": "419",
+    "star_events": "1096",
+    "total_events": "3038"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "24",
+    "issue_events": "2",
+    "star_events": "2",
+    "total_events": "28"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "2293",
+    "push_events": "8810",
+    "issue_events": "340",
+    "star_events": "1079",
+    "total_events": "12522"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "127",
+    "push_events": "846",
+    "issue_events": "173",
+    "star_events": "137",
+    "total_events": "1283"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "7",
+    "total_events": "7"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "856",
+    "push_events": "2825",
+    "issue_events": "180",
+    "star_events": "617",
+    "total_events": "4478"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "3",
+    "pull_events": "572",
+    "push_events": "1454",
+    "issue_events": "480",
+    "star_events": "605",
+    "total_events": "3111"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "2",
+    "pull_events": "1286",
+    "push_events": "19265",
+    "issue_events": "463",
+    "star_events": "1021",
+    "total_events": "22035"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "690",
+    "push_events": "13442",
+    "issue_events": "295",
+    "star_events": "630",
+    "total_events": "15057"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "1",
+    "pull_events": "55",
+    "push_events": "84",
+    "issue_events": "34",
+    "star_events": "76",
+    "total_events": "249"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "1495",
+    "push_events": "4347",
+    "issue_events": "445",
+    "star_events": "830",
+    "total_events": "7117"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "380",
+    "push_events": "848",
+    "issue_events": "360",
+    "star_events": "526",
+    "total_events": "2114"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "4",
+    "push_events": "7",
+    "issue_events": "1",
+    "star_events": "7",
+    "total_events": "19"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "64",
+    "push_events": "98",
+    "issue_events": "41",
+    "star_events": "93",
+    "total_events": "296"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "205",
+    "push_events": "442",
+    "issue_events": "148",
+    "star_events": "172",
+    "total_events": "967"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "8",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "12",
+    "total_events": "20"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "1907",
+    "push_events": "3089",
+    "issue_events": "1045",
+    "star_events": "1097",
+    "total_events": "7138"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "96",
+    "push_events": "286",
+    "issue_events": "95",
+    "star_events": "670",
+    "total_events": "1147"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "1425",
+    "push_events": "2634",
+    "issue_events": "293",
+    "star_events": "741",
+    "total_events": "5093"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "0",
+    "push_events": "4",
+    "issue_events": "0",
+    "star_events": "4",
+    "total_events": "8"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "484",
+    "push_events": "828",
+    "issue_events": "465",
+    "star_events": "594",
+    "total_events": "2371"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "218",
+    "push_events": "802",
+    "issue_events": "211",
+    "star_events": "216",
+    "total_events": "1447"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "181",
+    "push_events": "510",
+    "issue_events": "217",
+    "star_events": "768",
+    "total_events": "1676"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "1640",
+    "push_events": "15025",
+    "issue_events": "415",
+    "star_events": "986",
+    "total_events": "18066"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "135",
+    "push_events": "352",
+    "issue_events": "117",
+    "star_events": "723",
+    "total_events": "1327"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "1",
+    "push_events": "3",
+    "issue_events": "0",
+    "star_events": "9",
+    "total_events": "13"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "2584",
+    "push_events": "12442",
+    "issue_events": "164",
+    "star_events": "1044",
+    "total_events": "16234"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "0",
+    "push_events": "4",
+    "issue_events": "0",
+    "star_events": "6",
+    "total_events": "10"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "2849",
+    "push_events": "11195",
+    "issue_events": "183",
+    "star_events": "986",
+    "total_events": "15213"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "3009",
+    "push_events": "12912",
+    "issue_events": "198",
+    "star_events": "974",
+    "total_events": "17093"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "247",
+    "push_events": "812",
+    "issue_events": "303",
+    "star_events": "281",
+    "total_events": "1643"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "1",
+    "push_events": "4",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "6"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "2007",
+    "push_events": "3611",
+    "issue_events": "1064",
+    "star_events": "1248",
+    "total_events": "7930"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "6",
+    "issue_events": "0",
+    "star_events": "6",
+    "total_events": "12"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "3574",
+    "push_events": "13525",
+    "issue_events": "569",
+    "star_events": "1235",
+    "total_events": "18903"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "997",
+    "push_events": "2187",
+    "issue_events": "491",
+    "star_events": "890",
+    "total_events": "4565"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "130",
+    "push_events": "138",
+    "issue_events": "60",
+    "star_events": "78",
+    "total_events": "406"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "1556",
+    "push_events": "2795",
+    "issue_events": "452",
+    "star_events": "829",
+    "total_events": "5632"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "1398",
+    "push_events": "2732",
+    "issue_events": "674",
+    "star_events": "998",
+    "total_events": "5802"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "3",
+    "pull_events": "97",
+    "push_events": "428",
+    "issue_events": "109",
+    "star_events": "198",
+    "total_events": "832"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "277",
+    "push_events": "594",
+    "issue_events": "240",
+    "star_events": "550",
+    "total_events": "1661"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "4",
+    "pull_events": "164",
+    "push_events": "479",
+    "issue_events": "137",
+    "star_events": "751",
+    "total_events": "1531"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "2",
+    "pull_events": "119",
+    "push_events": "65",
+    "issue_events": "54",
+    "star_events": "94",
+    "total_events": "332"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "1",
+    "push_events": "0",
+    "issue_events": "1",
+    "star_events": "0",
+    "total_events": "2"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "29",
+    "push_events": "166",
+    "issue_events": "0",
+    "star_events": "14",
+    "total_events": "209"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "4",
+    "issue_events": "0",
+    "star_events": "12",
+    "total_events": "16"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "149",
+    "push_events": "153",
+    "issue_events": "121",
+    "star_events": "122",
+    "total_events": "545"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "1",
+    "pull_events": "574",
+    "push_events": "1077",
+    "issue_events": "564",
+    "star_events": "654",
+    "total_events": "2869"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "1",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "0",
+    "total_events": "1"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "1"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "93",
+    "push_events": "237",
+    "issue_events": "124",
+    "star_events": "620",
+    "total_events": "1074"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "1"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "1979",
+    "push_events": "4316",
+    "issue_events": "632",
+    "star_events": "1048",
+    "total_events": "7975"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "300",
+    "push_events": "537",
+    "issue_events": "236",
+    "star_events": "216",
+    "total_events": "1289"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "1",
+    "push_events": "1",
+    "issue_events": "1",
+    "star_events": "2",
+    "total_events": "5"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "504",
+    "push_events": "1024",
+    "issue_events": "325",
+    "star_events": "921",
+    "total_events": "2774"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "1897",
+    "push_events": "3803",
+    "issue_events": "457",
+    "star_events": "894",
+    "total_events": "7051"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "110",
+    "push_events": "149",
+    "issue_events": "90",
+    "star_events": "608",
+    "total_events": "957"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "204",
+    "push_events": "494",
+    "issue_events": "105",
+    "star_events": "211",
+    "total_events": "1014"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "879",
+    "push_events": "1725",
+    "issue_events": "442",
+    "star_events": "891",
+    "total_events": "3937"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "2067",
+    "push_events": "3563",
+    "issue_events": "315",
+    "star_events": "947",
+    "total_events": "6892"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "2795",
+    "push_events": "11788",
+    "issue_events": "102",
+    "star_events": "829",
+    "total_events": "15514"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "190",
+    "push_events": "476",
+    "issue_events": "182",
+    "star_events": "828",
+    "total_events": "1676"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "108",
+    "push_events": "272",
+    "issue_events": "160",
+    "star_events": "667",
+    "total_events": "1207"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "3824",
+    "push_events": "16983",
+    "issue_events": "160",
+    "star_events": "1034",
+    "total_events": "22001"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "434",
+    "push_events": "742",
+    "issue_events": "310",
+    "star_events": "726",
+    "total_events": "2212"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "380",
+    "push_events": "860",
+    "issue_events": "290",
+    "star_events": "559",
+    "total_events": "2089"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "373",
+    "push_events": "421",
+    "issue_events": "125",
+    "star_events": "461",
+    "total_events": "1380"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "136",
+    "push_events": "279",
+    "issue_events": "132",
+    "star_events": "199",
+    "total_events": "746"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "2156",
+    "push_events": "4216",
+    "issue_events": "421",
+    "star_events": "2053",
+    "total_events": "8846"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "1203",
+    "push_events": "2249",
+    "issue_events": "549",
+    "star_events": "925",
+    "total_events": "4926"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "1",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "2"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "1460",
+    "push_events": "2069",
+    "issue_events": "367",
+    "star_events": "663",
+    "total_events": "4559"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "3",
+    "issue_events": "0",
+    "star_events": "7",
+    "total_events": "10"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "1112",
+    "push_events": "2385",
+    "issue_events": "524",
+    "star_events": "832",
+    "total_events": "4853"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "1",
+    "push_events": "7",
+    "issue_events": "4",
+    "star_events": "3",
+    "total_events": "15"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "3",
+    "push_events": "4",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "8"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "3349",
+    "push_events": "14808",
+    "issue_events": "144",
+    "star_events": "881",
+    "total_events": "19182"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "5155",
+    "push_events": "9349",
+    "issue_events": "730",
+    "star_events": "1723",
+    "total_events": "16957"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "1",
+    "issue_events": "0",
+    "star_events": "0",
+    "total_events": "1"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "3804",
+    "push_events": "16131",
+    "issue_events": "142",
+    "star_events": "875",
+    "total_events": "20952"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "4",
+    "pull_events": "437",
+    "push_events": "700",
+    "issue_events": "286",
+    "star_events": "684",
+    "total_events": "2107"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "2",
+    "pull_events": "1",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "12",
+    "total_events": "13"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "1193",
+    "push_events": "2447",
+    "issue_events": "663",
+    "star_events": "985",
+    "total_events": "5288"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "pull_events": "255",
+    "push_events": "553",
+    "issue_events": "236",
+    "star_events": "228",
+    "total_events": "1272"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "3",
+    "pull_events": "1897",
+    "push_events": "2737",
+    "issue_events": "362",
+    "star_events": "752",
+    "total_events": "5748"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "1221",
+    "push_events": "5055",
+    "issue_events": "75",
+    "star_events": "820",
+    "total_events": "7171"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "1",
+    "issue_events": "0",
+    "star_events": "2",
+    "total_events": "3"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "302",
+    "push_events": "373",
+    "issue_events": "112",
+    "star_events": "833",
+    "total_events": "1620"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "2023",
+    "push_events": "4714",
+    "issue_events": "339",
+    "star_events": "247",
+    "total_events": "7323"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "1177",
+    "push_events": "1564",
+    "issue_events": "451",
+    "star_events": "699",
+    "total_events": "3891"
+  },
+  {
+    "name": "TLA",
+    "year": "2024",
+    "quarter": "1",
+    "pull_events": "1",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "2",
+    "total_events": "3"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "978",
+    "push_events": "1249",
+    "issue_events": "471",
+    "star_events": "711",
+    "total_events": "3409"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "0",
+    "push_events": "1",
+    "issue_events": "2",
+    "star_events": "4",
+    "total_events": "7"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "194",
+    "push_events": "244",
+    "issue_events": "106",
+    "star_events": "217",
+    "total_events": "761"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "1533",
+    "push_events": "6839",
+    "issue_events": "129",
+    "star_events": "861",
+    "total_events": "9362"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "1048",
+    "push_events": "1998",
+    "issue_events": "507",
+    "star_events": "930",
+    "total_events": "4483"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "342",
+    "push_events": "687",
+    "issue_events": "144",
+    "star_events": "979",
+    "total_events": "2152"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "83",
+    "push_events": "177",
+    "issue_events": "96",
+    "star_events": "667",
+    "total_events": "1023"
+  },
+  {
+    "name": "Boogie",
+    "year": "2024",
+    "quarter": "1",
+    "pull_events": "2",
+    "push_events": "4",
+    "issue_events": "0",
+    "star_events": "0",
+    "total_events": "6"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "473",
+    "push_events": "1011",
+    "issue_events": "241",
+    "star_events": "642",
+    "total_events": "2367"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "421",
+    "push_events": "795",
+    "issue_events": "270",
+    "star_events": "632",
+    "total_events": "2118"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "423",
+    "push_events": "704",
+    "issue_events": "252",
+    "star_events": "721",
+    "total_events": "2100"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "2271",
+    "push_events": "6799",
+    "issue_events": "432",
+    "star_events": "414",
+    "total_events": "9916"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "1102",
+    "push_events": "2147",
+    "issue_events": "485",
+    "star_events": "930",
+    "total_events": "4664"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "249",
+    "push_events": "258",
+    "issue_events": "111",
+    "star_events": "175",
+    "total_events": "793"
+  },
+  {
+    "name": "Lean",
+    "year": "2024",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "2",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "3"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "474",
+    "push_events": "718",
+    "issue_events": "324",
+    "star_events": "541",
+    "total_events": "2057"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "296",
+    "push_events": "574",
+    "issue_events": "163",
+    "star_events": "210",
+    "total_events": "1243"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "2413",
+    "push_events": "5974",
+    "issue_events": "327",
+    "star_events": "292",
+    "total_events": "9006"
+  },
+  {
+    "name": "Coq",
+    "year": "2024",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "0",
+    "issue_events": "2",
+    "star_events": "0",
+    "total_events": "2"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2024",
+    "quarter": "1",
+    "pull_events": "0",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "1",
+    "total_events": "1"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "0",
+    "push_events": "1",
+    "issue_events": "0",
+    "star_events": "8",
+    "total_events": "9"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "2348",
+    "push_events": "5481",
+    "issue_events": "597",
+    "star_events": "544",
+    "total_events": "8970"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "848",
+    "push_events": "1096",
+    "issue_events": "257",
+    "star_events": "517",
+    "total_events": "2718"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "56",
+    "push_events": "99",
+    "issue_events": "53",
+    "star_events": "743",
+    "total_events": "951"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "868",
+    "push_events": "975",
+    "issue_events": "393",
+    "star_events": "586",
+    "total_events": "2822"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "893",
+    "push_events": "1921",
+    "issue_events": "429",
+    "star_events": "1210",
+    "total_events": "4453"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "0",
+    "push_events": "0",
+    "issue_events": "0",
+    "star_events": "6",
+    "total_events": "6"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "3",
+    "pull_events": "73",
+    "push_events": "139",
+    "issue_events": "101",
+    "star_events": "794",
+    "total_events": "1107"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "1",
+    "pull_events": "183",
+    "push_events": "632",
+    "issue_events": "191",
+    "star_events": "231",
+    "total_events": "1237"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "4",
+    "pull_events": "102",
+    "push_events": "83",
+    "issue_events": "79",
+    "star_events": "726",
+    "total_events": "990"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "2",
+    "pull_events": "927",
+    "push_events": "1952",
+    "issue_events": "514",
+    "star_events": "932",
+    "total_events": "4325"
+  }
+]
