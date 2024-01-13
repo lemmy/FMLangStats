@@ -9,7 +9,8 @@ const query = (sql) => {
     const options_query = {
         query: sql,
         timeoutMs: 1000000,
-        useLegacySql: true,
+        useLegacySql: false,
+        
     }
 
     const options = {
@@ -23,22 +24,13 @@ const query = (sql) => {
 }
 
 const getAppendFileName = (eventName) => {
-    if (eventName.includes("PullRequestEvent"))
-       return "gh-pull-request.json"
-
-    if (eventName.includes("PushEvent"))
-       return "gh-push-event.json"
-
-    if (eventName.includes("IssuesEvent"))
-       return "gh-issue-event.json"
-
-    if (eventName.includes("WatchEvent"))
-       return "gh-star-event.json"
+    return "gh-all.json"
 }
 
 const writeJsonToFile = (q) => async (j) => {
     const fN = "../src/data/" + getAppendFileName(q)
     fs.readFile(fN, (err, data) => {
+        // data is the content of the existing file, not the query result.
         const json = JSON.parse(data)
         if (err) throw new Error("could not append file")
         json.push(j)
@@ -49,73 +41,28 @@ const writeJsonToFile = (q) => async (j) => {
 }
 
 const queryBuilder = (tables) => {
-    const types = ["PullRequestEvent", "IssuesEvent", "PushEvent", "WatchEvent"]
+    const types = ["PullRequestEvent"]
 
     /* eslint-disable no-useless-escape */
     const sqlQuery = (type) =>
-    ` SELECT name, year, quarter, SUM(count) AS count 
-    FROM (
-        SELECT language as name, year, quarter, actor.login, count 
-        FROM ( 
-            SELECT * 
-            FROM (
-                SELECT lang as language, y as year, q as quarter, type, actor.login, COUNT(*) as count 
-                FROM (
-                    SELECT a.type type, actor.login, b.lang lang, a.y y, a.q q 
-                    FROM (
-                        SELECT type, actor.login, YEAR(created_at) as y, QUARTER(created_at) as q, STRING(REGEXP_REPLACE(repo.url, r'https:\/\/github\.com\/|https:\/\/api\.github\.com\/repos\/', '')) as name 
-                        FROM ${tables} 
-                        WHERE NOT LOWER(actor.login) LIKE "%bot%"
-                    ) a
-                    JOIN (
-                        SELECT repo_name as name, lang 
-                        FROM ( 
-                            SELECT * 
-                            FROM (
-                                SELECT *, ROW_NUMBER() OVER (PARTITION BY repo_name ORDER BY lang) as num 
-                                FROM (
-                                    SELECT repo_name, FIRST_VALUE(language.name) OVER (partition by repo_name order by language.bytes DESC) AS lang 
-                                    FROM [bigquery-public-data:github_repos.languages]
-                                )
-                            )
-                            WHERE num = 1 
-                            ORDER BY repo_name
-                        )
-                        WHERE lang != 'null'
-                    ) b ON a.name = b.name
-                )
-                GROUP BY type, language, year, quarter, actor.login
-                ORDER BY year, quarter, count DESC
-            )
-        ) 
-        WHERE type = '${type}'
-    )
-    WHERE name IN ('Lean', 'Coq', 'Alloy', 'TLA', 'F*', 'Dafny', 'Boogie', 'SMT')
-    GROUP BY name, year, quarter
-    ORDER BY year, quarter, count DESC;`
-    
+    ` SELECT 
+        language.name AS name,
+        EXTRACT(YEAR FROM e.created_at) as year,
+        EXTRACT(QUARTER FROM e.created_at) as quarter,
+        COUNTIF(e.type = 'PullEvent') AS pull_events,
+        COUNTIF(e.type = 'PushEvent') AS push_events,
+        COUNTIF(e.type = 'IssuesEvent') AS issue_events,
+        COUNTIF(e.type = 'WatchEvent') AS star_events
+    FROM \`bigquery-public-data.github_repos.languages\` l, UNNEST(l.language) as language
+    JOIN 
+        \`githubarchive.year.2023\` e
+    ON 
+        l.repo_name = e.repo.name
+    WHERE 
+        language.name IN ('F*', 'TLA', 'Dafny', 'Lean', 'SMT', 'Coq', 'Isabelle', 'Boogie')
+    GROUP BY 
+        language.name, year, quarter;`
 
-
-    // const sqlQuery = (type) =>
-        // ` SELECT name, year, quarter, SUM(count) AS count FROM (
-        //   SELECT language as name, year, quarter, actor.login, count FROM ( SELECT * FROM (
-        //   SELECT lang as language, y as year, q as quarter, type, actor.login,
-        //   COUNT(*) as count FROM (SELECT a.type type, actor.login, b.lang lang, a.y y, a.q q FROM (
-        //   SELECT type, actor.login, YEAR(created_at) as y, QUARTER(created_at) as q,
-        //   STRING(REGEXP_REPLACE(repo.url, r'https:\/\/github\.com\/|https:\/\/api\.github\.com\/repos\/', '')) as name
-        //   FROM ${tables} WHERE NOT LOWER(actor.login) LIKE "%bot%") a
-        //   JOIN ( SELECT repo_name as name, lang FROM ( SELECT * FROM (
-        //   SELECT *, ROW_NUMBER() OVER (PARTITION BY repo_name ORDER BY lang) as num FROM (
-        //   SELECT repo_name, FIRST_VALUE(language.name) OVER (
-        //   partition by repo_name order by language.bytes DESC) AS lang
-        //   FROM [bigquery-public-data:github_repos.languages]))
-        //   WHERE num = 1 order by repo_name)
-        //   WHERE lang IN ('Lean', 'TLA')) b ON a.name = b.name)
-        //   GROUP by type, language, year, quarter, actor.login
-        //   ORDER by year, quarter, count DESC)
-        //   WHERE count <= 1000) WHERE type = '${type}')
-        //   GROUP BY name, year, quarter
-        //   ORDER BY year, quarter, count DESC LIMIT 100`
     /* eslint-enable no-useless-escape */
     return map(sqlQuery)(types)
 }
@@ -156,6 +103,38 @@ const main = async () => {
             "Error while querying the BigQuery Google API " + err + "\n"
         )
     }
+    
+    // Read JSON data from file
+    const jsonData = JSON.parse(fs.readFileSync('../src/data/gh-all.json', 'utf8'));
+
+    // Process the data
+    splitEvents(jsonData);
+}
+
+function splitEvents(jsonData) {
+    const pullEvents = [];
+    const pushEvents = [];
+    const issueEvents = [];
+    const starEvents = [];
+
+    jsonData.forEach(item => {
+        const { name, year, quarter } = item;
+        
+        pullEvents.push({ name, year, quarter, count: item.pull_events });
+        pushEvents.push({ name, year, quarter, count: item.push_events });
+        issueEvents.push({ name, year, quarter, count: item.issue_events });
+        starEvents.push({ name, year, quarter, count: item.star_events });
+    });
+
+    const pullEventsJson = JSON.stringify(pullEvents, null, 2);
+    const pushEventsJson = JSON.stringify(pushEvents, null, 2);
+    const issueEventsJson = JSON.stringify(issueEvents, null, 2);
+    const starEventsJson = JSON.stringify(starEvents, null, 2);
+
+    fs.writeFileSync('../src/data/gh-pull-request.json', pullEventsJson);
+    fs.writeFileSync('../src/data/gh-push-event.json', pushEventsJson);
+    fs.writeFileSync('../src/data/gh-issue-event.json', issueEventsJson);
+    fs.writeFileSync('../src/data/gh-star-event.json', starEventsJson);
 }
 
 main()
