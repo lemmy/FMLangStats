@@ -1441,21 +1441,9 @@
   },
   {
     "name": "Lean",
-    "year": "2017",
-    "quarter": "1",
-    "count": "1"
-  },
-  {
-    "name": "Lean",
     "year": "2016",
     "quarter": "1",
     "count": "270"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "1",
-    "count": "0"
   },
   {
     "name": "F*",
@@ -1548,12 +1536,6 @@
     "count": "146"
   },
   {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
     "name": "F*",
     "year": "2015",
     "quarter": "4",
@@ -1569,12 +1551,6 @@
     "name": "Boogie",
     "year": "2015",
     "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "1",
     "count": "0"
   },
   {

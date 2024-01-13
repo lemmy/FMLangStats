@@ -2401,16 +2401,6 @@
   },
   {
     "name": "Lean",
-    "year": "2017",
-    "quarter": "1",
-    "pull_events": "2",
-    "push_events": "19",
-    "issue_events": "1",
-    "star_events": "1",
-    "count": "23"
-  },
-  {
-    "name": "Lean",
     "year": "2016",
     "quarter": "1",
     "pull_events": "415",
@@ -2418,16 +2408,6 @@
     "issue_events": "270",
     "star_events": "629",
     "count": "3833"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "4",
-    "issue_events": "0",
-    "star_events": "2",
-    "count": "6"
   },
   {
     "name": "F*",
@@ -2580,16 +2560,6 @@
     "count": "648"
   },
   {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "1",
-    "pull_events": "1",
-    "push_events": "3",
-    "issue_events": "0",
-    "star_events": "7",
-    "count": "11"
-  },
-  {
     "name": "F*",
     "year": "2015",
     "quarter": "4",
@@ -2618,16 +2588,6 @@
     "issue_events": "0",
     "star_events": "0",
     "count": "56"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "23",
-    "issue_events": "0",
-    "star_events": "3",
-    "count": "26"
   },
   {
     "name": "Coq",

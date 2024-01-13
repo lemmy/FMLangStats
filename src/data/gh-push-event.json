@@ -1441,21 +1441,9 @@
   },
   {
     "name": "Lean",
-    "year": "2017",
-    "quarter": "1",
-    "count": "19"
-  },
-  {
-    "name": "Lean",
     "year": "2016",
     "quarter": "1",
     "count": "2519"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "1",
-    "count": "4"
   },
   {
     "name": "F*",
@@ -1548,12 +1536,6 @@
     "count": "434"
   },
   {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "1",
-    "count": "3"
-  },
-  {
     "name": "F*",
     "year": "2015",
     "quarter": "4",
@@ -1570,12 +1552,6 @@
     "year": "2015",
     "quarter": "4",
     "count": "56"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "1",
-    "count": "23"
   },
   {
     "name": "Coq",
