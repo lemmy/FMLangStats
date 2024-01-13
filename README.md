@@ -127,6 +127,7 @@ $ npm run build
 
 ## Replace old content in gh-pages branch with content of newly created build/ directory.
 $ git checkout gh-pages
+$ rm -rf static/
 $ mv build/* .
 $ git add static/*
 $ git commit -am 'year 20xx'
