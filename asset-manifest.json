@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/FMLangStats/static/js/main.e1a7a495.js",
+    "main.js": "/FMLangStats/static/js/main.9fa5da6a.js",
     "index.html": "/FMLangStats/index.html",
-    "main.e1a7a495.js.map": "/FMLangStats/static/js/main.e1a7a495.js.map"
+    "main.9fa5da6a.js.map": "/FMLangStats/static/js/main.9fa5da6a.js.map"
   },
   "entrypoints": [
-    "static/js/main.e1a7a495.js"
+    "static/js/main.9fa5da6a.js"
   ]
 }
