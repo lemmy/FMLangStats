@@ -10,13 +10,15 @@ import Layout from "components/Layout"
 import { getMaxDataDate } from "common/utils.js"
 import { hydrate, render } from "react-dom"
 
+const production = window.location.href.includes("lemmster.de")
+
 const main = async () => {
     const { year, quarter } = await getMaxDataDate()
     const defaultPath = "#/total/" + year + "/" + quarter
     const loc = window.location.href
     const validUrlParams = ["total", "pull_requests", "pushes", "stars", "issues"]
     const isValidURL = validUrlParams.some((v) => loc.includes(v))
-    const url = "/FMLangStats/" + defaultPath
+    const url = (production ? "/FMLangStats/" : "/") + defaultPath
 
     if (!isValidURL) {
         window.history.pushState("", "", url)
