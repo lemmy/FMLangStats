@@ -71,13 +71,13 @@ export default function Layout() {
                             hist={hist}
                             table={table}
                         />
-                        <div className="rowCenter">
-                            <DownloadButton />
-                        </div>
                     </div>
                 )}
             />
             <Content />
+            <div className="rowCenter">
+                            <DownloadButton />
+                        </div>
             <Footer />
         </div>
     )

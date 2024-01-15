@@ -117,12 +117,18 @@ $ cd scripts/
 $ yarn install
 ## Update year in tables
 $ node query.js --table "githubarchive.year.2024"
+## A query for year X gets a handful of tables from year X+-1. removeDuplicates.js removes those duplicates from the result.
+## TODO The BigQuery query should not return duplicates in the first place!
 $ node removeDuplicates.js
+## Split the total into the individual results for stars, pushes, issues, pull_requests.
 $ node postProcess.js
 
 ## Commit updated src/data/*.json files
 $ cd ..
 $ git commit -am 'year 20xx'
+
+## Debug locally
+$ npm run dev
 
 ## Regenerate gh-pages from newly collected data.
 $ yarn install --frozen-lockfile

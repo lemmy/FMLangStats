@@ -39,6 +39,9 @@ const queryBuilder = (table) => {
     const types = [""]
 
     /* eslint-disable no-useless-escape */
+    // Experiment with the query at https://console.cloud.google.com/bigquery?project=githubfmlangstats
+    // The cost of running the query can be found on BigQuery's dashboard at
+    // https://console.cloud.google.com/billing/01D845-05C4AB-8096A4?project=githubfmlangstats
     const sqlQuery = (type) =>
     ` SELECT 
         language.name AS name,
