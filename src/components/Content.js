@@ -22,7 +22,7 @@ export default function Content() {
             <h1 id="related-work">Other Metrics</h1>
 
             <p className="responsivity-mobile-modif">
-            <a href="https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F0134r96j,%2Fg%2F11j7dt82fy,%2Fg%2F11j3r_lybp,%2Fg%2F11f3f1hqn2,%2Fm%2F0ql079r&hl=en">Google Trends</a> for a subset of the langauges above can be found <a href="https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F0134r96j,%2Fg%2F11j7dt82fy,%2Fg%2F11j3r_lybp,%2Fg%2F11f3f1hqn2,%2Fm%2F0ql079r&hl=en">here</a>.
+                <center><a href="https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F0134r96j,%2Fg%2F11j7dt82fy,%2Fg%2F11j3r_lybp,%2Fg%2F11f3f1hqn2,%2Fm%2F0ql079r&hl=en">Google Trends</a> for a subset of the langauges above can be found <a href="https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F0134r96j,%2Fg%2F11j7dt82fy,%2Fg%2F11j3r_lybp,%2Fg%2F11f3f1hqn2,%2Fm%2F0ql079r&hl=en">here.</a></center>
             </p>
 
             <table>
