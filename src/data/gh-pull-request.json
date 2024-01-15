@@ -1,1533 +1,15 @@
 [
   {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "2",
-    "count": "888"
-  },
-  {
-    "name": "Coq",
-    "year": "2020",
-    "quarter": "1",
-    "count": "1392"
-  },
-  {
-    "name": "TLA",
-    "year": "2020",
-    "quarter": "3",
-    "count": "1207"
-  },
-  {
-    "name": "Dafny",
-    "year": "2020",
-    "quarter": "3",
-    "count": "0"
-  },
-  {
-    "name": "Coq",
-    "year": "2020",
-    "quarter": "2",
-    "count": "2033"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2020",
-    "quarter": "1",
-    "count": "70"
-  },
-  {
-    "name": "Coq",
-    "year": "2020",
-    "quarter": "3",
-    "count": "1598"
-  },
-  {
-    "name": "F*",
-    "year": "2020",
-    "quarter": "2",
-    "count": "278"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2020",
-    "quarter": "3",
-    "count": "97"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2020",
-    "quarter": "2",
-    "count": "129"
-  },
-  {
     "name": "Boogie",
-    "year": "2020",
-    "quarter": "3",
-    "count": "74"
-  },
-  {
-    "name": "F*",
-    "year": "2020",
-    "quarter": "3",
-    "count": "202"
-  },
-  {
-    "name": "Lean",
-    "year": "2020",
-    "quarter": "3",
-    "count": "2357"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2020",
-    "quarter": "4",
-    "count": "139"
-  },
-  {
-    "name": "Dafny",
-    "year": "2020",
-    "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "F*",
-    "year": "2020",
-    "quarter": "4",
-    "count": "155"
-  },
-  {
-    "name": "Dafny",
-    "year": "2020",
-    "quarter": "2",
-    "count": "0"
-  },
-  {
-    "name": "Lean",
-    "year": "2020",
-    "quarter": "4",
-    "count": "2925"
-  },
-  {
-    "name": "TLA",
-    "year": "2020",
-    "quarter": "4",
-    "count": "1448"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "2",
-    "count": "98"
-  },
-  {
-    "name": "Coq",
-    "year": "2020",
-    "quarter": "4",
-    "count": "2004"
-  },
-  {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "1",
-    "count": "479"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "4",
-    "count": "87"
-  },
-  {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "4",
-    "count": "497"
-  },
-  {
-    "name": "Dafny",
-    "year": "2020",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "Lean",
-    "year": "2020",
-    "quarter": "2",
-    "count": "2293"
-  },
-  {
-    "name": "F*",
-    "year": "2020",
-    "quarter": "1",
-    "count": "127"
-  },
-  {
-    "name": "Lean",
-    "year": "2020",
-    "quarter": "1",
-    "count": "856"
-  },
-  {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "3",
-    "count": "572"
-  },
-  {
-    "name": "TLA",
-    "year": "2020",
-    "quarter": "2",
-    "count": "1286"
-  },
-  {
-    "name": "TLA",
-    "year": "2020",
-    "quarter": "1",
-    "count": "690"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "1",
-    "count": "55"
-  },
-  {
-    "name": "TLA",
-    "year": "2021",
-    "quarter": "2",
-    "count": "1495"
-  },
-  {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "2",
-    "count": "380"
-  },
-  {
-    "name": "Dafny",
-    "year": "2021",
-    "quarter": "2",
-    "count": "4"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "3",
-    "count": "64"
-  },
-  {
-    "name": "F*",
-    "year": "2021",
-    "quarter": "4",
-    "count": "205"
-  },
-  {
-    "name": "Coq",
-    "year": "2021",
-    "quarter": "2",
-    "count": "1907"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2021",
-    "quarter": "3",
-    "count": "96"
-  },
-  {
-    "name": "TLA",
-    "year": "2021",
-    "quarter": "4",
-    "count": "1425"
-  },
-  {
-    "name": "Dafny",
-    "year": "2021",
-    "quarter": "3",
-    "count": "0"
-  },
-  {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "3",
-    "count": "484"
-  },
-  {
-    "name": "F*",
-    "year": "2021",
-    "quarter": "2",
-    "count": "218"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2021",
-    "quarter": "1",
-    "count": "181"
-  },
-  {
-    "name": "TLA",
-    "year": "2021",
-    "quarter": "1",
-    "count": "1640"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2021",
-    "quarter": "2",
-    "count": "135"
-  },
-  {
-    "name": "Lean",
-    "year": "2021",
-    "quarter": "4",
-    "count": "2584"
-  },
-  {
-    "name": "Dafny",
-    "year": "2021",
-    "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "Lean",
-    "year": "2021",
-    "quarter": "2",
-    "count": "2849"
-  },
-  {
-    "name": "Lean",
-    "year": "2021",
-    "quarter": "3",
-    "count": "3009"
-  },
-  {
-    "name": "F*",
-    "year": "2021",
-    "quarter": "1",
-    "count": "247"
-  },
-  {
-    "name": "Coq",
-    "year": "2021",
-    "quarter": "1",
-    "count": "2007"
-  },
-  {
-    "name": "Lean",
-    "year": "2021",
-    "quarter": "1",
-    "count": "3574"
-  },
-  {
-    "name": "Coq",
-    "year": "2021",
-    "quarter": "4",
-    "count": "997"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "4",
-    "count": "130"
-  },
-  {
-    "name": "TLA",
-    "year": "2021",
-    "quarter": "3",
-    "count": "1556"
-  },
-  {
-    "name": "Coq",
-    "year": "2021",
-    "quarter": "3",
-    "count": "1398"
-  },
-  {
-    "name": "F*",
-    "year": "2021",
-    "quarter": "3",
-    "count": "97"
-  },
-  {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "4",
-    "count": "277"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2021",
-    "quarter": "4",
-    "count": "164"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "2",
-    "count": "119"
-  },
-  {
-    "name": "Dafny",
-    "year": "2021",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "1",
-    "count": "149"
-  },
-  {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "1",
-    "count": "574"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2022",
-    "quarter": "4",
-    "count": "93"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "4",
-    "count": "1979"
-  },
-  {
-    "name": "F*",
-    "year": "2022",
-    "quarter": "2",
-    "count": "300"
-  },
-  {
-    "name": "Dafny",
-    "year": "2022",
-    "quarter": "4",
-    "count": "1"
-  },
-  {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "1",
-    "count": "504"
-  },
-  {
-    "name": "TLA",
-    "year": "2022",
-    "quarter": "1",
-    "count": "1897"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2022",
-    "quarter": "2",
-    "count": "110"
-  },
-  {
-    "name": "F*",
-    "year": "2022",
-    "quarter": "4",
-    "count": "204"
-  },
-  {
-    "name": "Coq",
-    "year": "2022",
-    "quarter": "3",
-    "count": "879"
-  },
-  {
-    "name": "TLA",
-    "year": "2022",
-    "quarter": "2",
-    "count": "2067"
-  },
-  {
-    "name": "Lean",
-    "year": "2022",
-    "quarter": "4",
-    "count": "2795"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2022",
-    "quarter": "1",
-    "count": "190"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2022",
-    "quarter": "3",
-    "count": "108"
-  },
-  {
-    "name": "Lean",
-    "year": "2022",
-    "quarter": "1",
-    "count": "3824"
-  },
-  {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "2",
-    "count": "434"
-  },
-  {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "3",
-    "count": "380"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "1",
-    "count": "373"
-  },
-  {
-    "name": "F*",
-    "year": "2022",
-    "quarter": "3",
-    "count": "136"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "2",
-    "count": "2156"
-  },
-  {
-    "name": "Coq",
-    "year": "2022",
-    "quarter": "4",
-    "count": "1203"
-  },
-  {
-    "name": "TLA",
-    "year": "2022",
-    "quarter": "4",
-    "count": "1460"
-  },
-  {
-    "name": "Dafny",
-    "year": "2022",
+    "year": "2015",
     "quarter": "1",
     "count": "0"
   },
   {
     "name": "Coq",
-    "year": "2022",
-    "quarter": "2",
-    "count": "1112"
-  },
-  {
-    "name": "Dafny",
-    "year": "2022",
-    "quarter": "3",
-    "count": "1"
-  },
-  {
-    "name": "Lean",
-    "year": "2022",
-    "quarter": "3",
-    "count": "3349"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "3",
-    "count": "5155"
-  },
-  {
-    "name": "Lean",
-    "year": "2022",
-    "quarter": "2",
-    "count": "3804"
-  },
-  {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "4",
-    "count": "437"
-  },
-  {
-    "name": "Dafny",
-    "year": "2022",
-    "quarter": "2",
-    "count": "1"
-  },
-  {
-    "name": "Coq",
-    "year": "2022",
+    "year": "2015",
     "quarter": "1",
-    "count": "1193"
-  },
-  {
-    "name": "F*",
-    "year": "2022",
-    "quarter": "1",
-    "count": "255"
-  },
-  {
-    "name": "TLA",
-    "year": "2022",
-    "quarter": "3",
-    "count": "1897"
-  },
-  {
-    "name": "Lean",
-    "year": "2023",
-    "quarter": "2",
-    "count": "1221"
-  },
-  {
-    "name": "Dafny",
-    "year": "2023",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "Lean",
-    "year": "2023",
-    "quarter": "4",
-    "count": "302"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "4",
-    "count": "2023"
-  },
-  {
-    "name": "TLA",
-    "year": "2023",
-    "quarter": "1",
-    "count": "1177"
-  },
-  {
-    "name": "TLA",
-    "year": "2023",
-    "quarter": "2",
-    "count": "978"
-  },
-  {
-    "name": "Dafny",
-    "year": "2023",
-    "quarter": "2",
-    "count": "0"
-  },
-  {
-    "name": "F*",
-    "year": "2023",
-    "quarter": "3",
-    "count": "194"
-  },
-  {
-    "name": "Lean",
-    "year": "2023",
-    "quarter": "1",
-    "count": "1533"
-  },
-  {
-    "name": "Coq",
-    "year": "2023",
-    "quarter": "4",
-    "count": "1048"
-  },
-  {
-    "name": "Lean",
-    "year": "2023",
-    "quarter": "3",
-    "count": "342"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2023",
-    "quarter": "1",
-    "count": "83"
-  },
-  {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "4",
-    "count": "473"
-  },
-  {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "3",
-    "count": "421"
-  },
-  {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "2",
-    "count": "423"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "2",
-    "count": "2271"
-  },
-  {
-    "name": "Coq",
-    "year": "2023",
-    "quarter": "1",
-    "count": "1102"
-  },
-  {
-    "name": "F*",
-    "year": "2023",
-    "quarter": "4",
-    "count": "249"
-  },
-  {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "1",
-    "count": "474"
-  },
-  {
-    "name": "F*",
-    "year": "2023",
-    "quarter": "2",
-    "count": "296"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "3",
-    "count": "2413"
-  },
-  {
-    "name": "Dafny",
-    "year": "2023",
-    "quarter": "3",
-    "count": "0"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "1",
-    "count": "2348"
-  },
-  {
-    "name": "TLA",
-    "year": "2023",
-    "quarter": "4",
-    "count": "848"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2023",
-    "quarter": "2",
-    "count": "56"
-  },
-  {
-    "name": "TLA",
-    "year": "2023",
-    "quarter": "3",
-    "count": "868"
-  },
-  {
-    "name": "Coq",
-    "year": "2023",
-    "quarter": "3",
-    "count": "893"
-  },
-  {
-    "name": "Dafny",
-    "year": "2023",
-    "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2023",
-    "quarter": "3",
-    "count": "73"
-  },
-  {
-    "name": "F*",
-    "year": "2023",
-    "quarter": "1",
-    "count": "183"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2023",
-    "quarter": "4",
-    "count": "102"
-  },
-  {
-    "name": "Coq",
-    "year": "2023",
-    "quarter": "2",
-    "count": "927"
-  },
-  {
-    "name": "F*",
-    "year": "2019",
-    "quarter": "2",
-    "count": "175"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "1",
-    "count": "6"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "4",
-    "count": "157"
-  },
-  {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "4",
-    "count": "496"
-  },
-  {
-    "name": "F*",
-    "year": "2019",
-    "quarter": "1",
-    "count": "187"
-  },
-  {
-    "name": "TLA",
-    "year": "2019",
-    "quarter": "3",
-    "count": "1730"
-  },
-  {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "1",
-    "count": "321"
-  },
-  {
-    "name": "Dafny",
-    "year": "2019",
-    "quarter": "3",
-    "count": "4"
-  },
-  {
-    "name": "Coq",
-    "year": "2019",
-    "quarter": "4",
-    "count": "1747"
-  },
-  {
-    "name": "F*",
-    "year": "2019",
-    "quarter": "4",
-    "count": "205"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2019",
-    "quarter": "1",
-    "count": "18"
-  },
-  {
-    "name": "F*",
-    "year": "2019",
-    "quarter": "3",
-    "count": "142"
-  },
-  {
-    "name": "Dafny",
-    "year": "2019",
-    "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "Coq",
-    "year": "2019",
-    "quarter": "2",
-    "count": "1408"
-  },
-  {
-    "name": "Dafny",
-    "year": "2019",
-    "quarter": "2",
-    "count": "0"
-  },
-  {
-    "name": "Lean",
-    "year": "2019",
-    "quarter": "4",
-    "count": "859"
-  },
-  {
-    "name": "TLA",
-    "year": "2019",
-    "quarter": "1",
-    "count": "966"
-  },
-  {
-    "name": "TLA",
-    "year": "2019",
-    "quarter": "4",
-    "count": "1054"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2019",
-    "quarter": "3",
-    "count": "36"
-  },
-  {
-    "name": "TLA",
-    "year": "2019",
-    "quarter": "2",
-    "count": "1389"
-  },
-  {
-    "name": "Lean",
-    "year": "2019",
-    "quarter": "3",
-    "count": "689"
-  },
-  {
-    "name": "Lean",
-    "year": "2019",
-    "quarter": "2",
-    "count": "726"
-  },
-  {
-    "name": "Coq",
-    "year": "2019",
-    "quarter": "3",
-    "count": "1211"
-  },
-  {
-    "name": "Lean",
-    "year": "2019",
-    "quarter": "1",
-    "count": "396"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2019",
-    "quarter": "2",
-    "count": "81"
-  },
-  {
-    "name": "Coq",
-    "year": "2019",
-    "quarter": "1",
-    "count": "858"
-  },
-  {
-    "name": "Dafny",
-    "year": "2019",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "2",
-    "count": "505"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "2",
-    "count": "2"
-  },
-  {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "3",
-    "count": "527"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2019",
-    "quarter": "4",
-    "count": "178"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "3",
-    "count": "9"
-  },
-  {
-    "name": "Dafny",
-    "year": "2018",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "1",
-    "count": "193"
-  },
-  {
-    "name": "TLA",
-    "year": "2018",
-    "quarter": "3",
-    "count": "1056"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "2",
-    "count": "8"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "4",
-    "count": "1"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2018",
-    "quarter": "2",
-    "count": "25"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2018",
-    "quarter": "4",
-    "count": "38"
-  },
-  {
-    "name": "F*",
-    "year": "2018",
-    "quarter": "4",
-    "count": "128"
-  },
-  {
-    "name": "F*",
-    "year": "2018",
-    "quarter": "2",
-    "count": "324"
-  },
-  {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "3",
-    "count": "219"
-  },
-  {
-    "name": "Lean",
-    "year": "2018",
-    "quarter": "4",
-    "count": "57"
-  },
-  {
-    "name": "Lean",
-    "year": "2018",
-    "quarter": "2",
-    "count": "46"
-  },
-  {
-    "name": "TLA",
-    "year": "2018",
-    "quarter": "2",
-    "count": "726"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "3",
-    "count": "4"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2018",
-    "quarter": "3",
-    "count": "32"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "1",
-    "count": "9"
-  },
-  {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "4",
-    "count": "318"
-  },
-  {
-    "name": "F*",
-    "year": "2018",
-    "quarter": "3",
-    "count": "105"
-  },
-  {
-    "name": "Lean",
-    "year": "2018",
-    "quarter": "1",
-    "count": "62"
-  },
-  {
-    "name": "Dafny",
-    "year": "2018",
-    "quarter": "4",
-    "count": "1"
-  },
-  {
-    "name": "F*",
-    "year": "2018",
-    "quarter": "1",
-    "count": "75"
-  },
-  {
-    "name": "Coq",
-    "year": "2018",
-    "quarter": "2",
-    "count": "1194"
-  },
-  {
-    "name": "Lean",
-    "year": "2018",
-    "quarter": "3",
-    "count": "42"
-  },
-  {
-    "name": "Coq",
-    "year": "2018",
-    "quarter": "1",
-    "count": "1074"
-  },
-  {
-    "name": "Coq",
-    "year": "2018",
-    "quarter": "3",
-    "count": "1144"
-  },
-  {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "2",
-    "count": "249"
-  },
-  {
-    "name": "TLA",
-    "year": "2018",
-    "quarter": "1",
-    "count": "553"
-  },
-  {
-    "name": "TLA",
-    "year": "2018",
-    "quarter": "4",
-    "count": "886"
-  },
-  {
-    "name": "Dafny",
-    "year": "2018",
-    "quarter": "3",
-    "count": "0"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2018",
-    "quarter": "1",
-    "count": "32"
-  },
-  {
-    "name": "Dafny",
-    "year": "2018",
-    "quarter": "2",
-    "count": "2"
-  },
-  {
-    "name": "Coq",
-    "year": "2018",
-    "quarter": "4",
-    "count": "1259"
-  },
-  {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "4",
-    "count": "233"
-  },
-  {
-    "name": "TLA",
-    "year": "2017",
-    "quarter": "3",
-    "count": "648"
-  },
-  {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "3",
-    "count": "281"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "2",
-    "count": "153"
-  },
-  {
-    "name": "TLA",
-    "year": "2017",
-    "quarter": "2",
-    "count": "773"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2017",
-    "quarter": "1",
-    "count": "91"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "2",
-    "count": "4"
-  },
-  {
-    "name": "Dafny",
-    "year": "2017",
-    "quarter": "3",
-    "count": "2"
-  },
-  {
-    "name": "Dafny",
-    "year": "2017",
-    "quarter": "4",
-    "count": "12"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "3",
-    "count": "120"
-  },
-  {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "1",
-    "count": "400"
-  },
-  {
-    "name": "Lean",
-    "year": "2017",
-    "quarter": "1",
-    "count": "501"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2017",
-    "quarter": "4",
-    "count": "60"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "4",
-    "count": "14"
-  },
-  {
-    "name": "Dafny",
-    "year": "2017",
-    "quarter": "2",
-    "count": "4"
-  },
-  {
-    "name": "Coq",
-    "year": "2017",
-    "quarter": "2",
-    "count": "1415"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2017",
-    "quarter": "2",
-    "count": "61"
-  },
-  {
-    "name": "TLA",
-    "year": "2017",
-    "quarter": "4",
-    "count": "833"
-  },
-  {
-    "name": "Lean",
-    "year": "2017",
-    "quarter": "2",
-    "count": "285"
-  },
-  {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "2",
-    "count": "225"
-  },
-  {
-    "name": "Coq",
-    "year": "2017",
-    "quarter": "3",
-    "count": "1142"
-  },
-  {
-    "name": "Lean",
-    "year": "2017",
-    "quarter": "3",
-    "count": "172"
-  },
-  {
-    "name": "Dafny",
-    "year": "2017",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "Coq",
-    "year": "2017",
-    "quarter": "4",
-    "count": "3358"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2017",
-    "quarter": "3",
-    "count": "80"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "1",
-    "count": "83"
-  },
-  {
-    "name": "F*",
-    "year": "2017",
-    "quarter": "4",
-    "count": "129"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "3",
-    "count": "11"
-  },
-  {
-    "name": "TLA",
-    "year": "2017",
-    "quarter": "1",
-    "count": "868"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "1",
-    "count": "7"
-  },
-  {
-    "name": "Lean",
-    "year": "2017",
-    "quarter": "4",
-    "count": "128"
-  },
-  {
-    "name": "Coq",
-    "year": "2017",
-    "quarter": "1",
-    "count": "937"
-  },
-  {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "3",
-    "count": "950"
-  },
-  {
-    "name": "F*",
-    "year": "2016",
-    "quarter": "4",
-    "count": "76"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2016",
-    "quarter": "3",
-    "count": "207"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "3",
-    "count": "289"
-  },
-  {
-    "name": "Coq",
-    "year": "2016",
-    "quarter": "4",
-    "count": "794"
-  },
-  {
-    "name": "Dafny",
-    "year": "2016",
-    "quarter": "1",
-    "count": "0"
-  },
-  {
-    "name": "Lean",
-    "year": "2016",
-    "quarter": "4",
-    "count": "300"
-  },
-  {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "1",
-    "count": "509"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "1",
-    "count": "452"
-  },
-  {
-    "name": "Dafny",
-    "year": "2016",
-    "quarter": "2",
-    "count": "0"
-  },
-  {
-    "name": "Dafny",
-    "year": "2016",
-    "quarter": "3",
-    "count": "0"
-  },
-  {
-    "name": "Boogie",
-    "year": "2016",
-    "quarter": "3",
-    "count": "2"
-  },
-  {
-    "name": "F*",
-    "year": "2016",
-    "quarter": "2",
-    "count": "28"
-  },
-  {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "2",
-    "count": "716"
-  },
-  {
-    "name": "Lean",
-    "year": "2016",
-    "quarter": "3",
-    "count": "148"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2016",
-    "quarter": "4",
-    "count": "143"
-  },
-  {
-    "name": "Lean",
-    "year": "2016",
-    "quarter": "1",
-    "count": "415"
-  },
-  {
-    "name": "F*",
-    "year": "2016",
-    "quarter": "1",
-    "count": "10"
-  },
-  {
-    "name": "F*",
-    "year": "2016",
-    "quarter": "3",
-    "count": "42"
-  },
-  {
-    "name": "Coq",
-    "year": "2016",
-    "quarter": "3",
-    "count": "885"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "2",
-    "count": "324"
-  },
-  {
-    "name": "Boogie",
-    "year": "2016",
-    "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2016",
-    "quarter": "1",
-    "count": "226"
-  },
-  {
-    "name": "Coq",
-    "year": "2016",
-    "quarter": "1",
-    "count": "485"
-  },
-  {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "4",
-    "count": "305"
-  },
-  {
-    "name": "Dafny",
-    "year": "2016",
-    "quarter": "4",
-    "count": "0"
-  },
-  {
-    "name": "Boogie",
-    "year": "2016",
-    "quarter": "2",
-    "count": "8"
-  },
-  {
-    "name": "Isabelle",
-    "year": "2016",
-    "quarter": "2",
-    "count": "180"
-  },
-  {
-    "name": "TLA",
-    "year": "2016",
-    "quarter": "4",
-    "count": "894"
-  },
-  {
-    "name": "Coq",
-    "year": "2016",
-    "quarter": "2",
-    "count": "777"
-  },
-  {
-    "name": "Lean",
-    "year": "2016",
-    "quarter": "2",
-    "count": "270"
+    "count": "126"
   },
   {
     "name": "F*",
@@ -1536,21 +18,33 @@
     "count": "13"
   },
   {
-    "name": "F*",
+    "name": "Isabelle",
     "year": "2015",
-    "quarter": "4",
-    "count": "14"
+    "quarter": "1",
+    "count": "119"
   },
   {
-    "name": "Dafny",
+    "name": "Lean",
     "year": "2015",
-    "quarter": "3",
-    "count": "0"
+    "quarter": "1",
+    "count": "125"
+  },
+  {
+    "name": "SMT",
+    "year": "2015",
+    "quarter": "1",
+    "count": "174"
+  },
+  {
+    "name": "TLA",
+    "year": "2015",
+    "quarter": "1",
+    "count": "232"
   },
   {
     "name": "Boogie",
     "year": "2015",
-    "quarter": "4",
+    "quarter": "2",
     "count": "0"
   },
   {
@@ -1562,8 +56,44 @@
   {
     "name": "Dafny",
     "year": "2015",
-    "quarter": "4",
+    "quarter": "2",
     "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2015",
+    "quarter": "2",
+    "count": "10"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2015",
+    "quarter": "2",
+    "count": "79"
+  },
+  {
+    "name": "Lean",
+    "year": "2015",
+    "quarter": "2",
+    "count": "275"
+  },
+  {
+    "name": "SMT",
+    "year": "2015",
+    "quarter": "2",
+    "count": "200"
+  },
+  {
+    "name": "TLA",
+    "year": "2015",
+    "quarter": "2",
+    "count": "360"
+  },
+  {
+    "name": "Boogie",
+    "year": "2015",
+    "quarter": "3",
+    "count": "11"
   },
   {
     "name": "Coq",
@@ -1574,26 +104,26 @@
   {
     "name": "Dafny",
     "year": "2015",
-    "quarter": "2",
+    "quarter": "3",
     "count": "0"
   },
   {
-    "name": "TLA",
-    "year": "2015",
-    "quarter": "4",
-    "count": "292"
-  },
-  {
-    "name": "Boogie",
+    "name": "F*",
     "year": "2015",
     "quarter": "3",
-    "count": "11"
+    "count": "2"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2015",
+    "quarter": "3",
+    "count": "139"
   },
   {
     "name": "Lean",
     "year": "2015",
-    "quarter": "1",
-    "count": "125"
+    "quarter": "3",
+    "count": "289"
   },
   {
     "name": "SMT",
@@ -1602,34 +132,40 @@
     "count": "237"
   },
   {
+    "name": "TLA",
+    "year": "2015",
+    "quarter": "3",
+    "count": "208"
+  },
+  {
     "name": "Boogie",
     "year": "2015",
-    "quarter": "1",
+    "quarter": "4",
     "count": "0"
+  },
+  {
+    "name": "Coq",
+    "year": "2015",
+    "quarter": "4",
+    "count": "415"
+  },
+  {
+    "name": "Dafny",
+    "year": "2015",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2015",
+    "quarter": "4",
+    "count": "14"
   },
   {
     "name": "Isabelle",
     "year": "2015",
     "quarter": "4",
     "count": "150"
-  },
-  {
-    "name": "TLA",
-    "year": "2015",
-    "quarter": "1",
-    "count": "232"
-  },
-  {
-    "name": "TLA",
-    "year": "2015",
-    "quarter": "2",
-    "count": "360"
-  },
-  {
-    "name": "SMT",
-    "year": "2015",
-    "quarter": "1",
-    "count": "174"
   },
   {
     "name": "Lean",
@@ -1644,75 +180,1539 @@
     "count": "199"
   },
   {
-    "name": "Coq",
+    "name": "TLA",
     "year": "2015",
+    "quarter": "4",
+    "count": "292"
+  },
+  {
+    "name": "Coq",
+    "year": "2016",
     "quarter": "1",
-    "count": "126"
+    "count": "485"
+  },
+  {
+    "name": "Dafny",
+    "year": "2016",
+    "quarter": "1",
+    "count": "0"
   },
   {
     "name": "F*",
-    "year": "2015",
-    "quarter": "3",
-    "count": "2"
-  },
-  {
-    "name": "TLA",
-    "year": "2015",
-    "quarter": "3",
-    "count": "208"
+    "year": "2016",
+    "quarter": "1",
+    "count": "10"
   },
   {
     "name": "Isabelle",
-    "year": "2015",
-    "quarter": "2",
-    "count": "79"
+    "year": "2016",
+    "quarter": "1",
+    "count": "226"
+  },
+  {
+    "name": "Lean",
+    "year": "2016",
+    "quarter": "1",
+    "count": "415"
   },
   {
     "name": "SMT",
-    "year": "2015",
-    "quarter": "2",
-    "count": "200"
+    "year": "2016",
+    "quarter": "1",
+    "count": "452"
+  },
+  {
+    "name": "TLA",
+    "year": "2016",
+    "quarter": "1",
+    "count": "509"
   },
   {
     "name": "Boogie",
-    "year": "2015",
+    "year": "2016",
+    "quarter": "2",
+    "count": "8"
+  },
+  {
+    "name": "Coq",
+    "year": "2016",
+    "quarter": "2",
+    "count": "777"
+  },
+  {
+    "name": "Dafny",
+    "year": "2016",
     "quarter": "2",
     "count": "0"
   },
   {
     "name": "F*",
-    "year": "2015",
+    "year": "2016",
     "quarter": "2",
-    "count": "10"
-  },
-  {
-    "name": "Coq",
-    "year": "2015",
-    "quarter": "4",
-    "count": "415"
+    "count": "28"
   },
   {
     "name": "Isabelle",
-    "year": "2015",
-    "quarter": "1",
-    "count": "119"
+    "year": "2016",
+    "quarter": "2",
+    "count": "180"
   },
   {
     "name": "Lean",
-    "year": "2015",
+    "year": "2016",
     "quarter": "2",
-    "count": "275"
+    "count": "270"
+  },
+  {
+    "name": "SMT",
+    "year": "2016",
+    "quarter": "2",
+    "count": "324"
+  },
+  {
+    "name": "TLA",
+    "year": "2016",
+    "quarter": "2",
+    "count": "716"
+  },
+  {
+    "name": "Boogie",
+    "year": "2016",
+    "quarter": "3",
+    "count": "2"
+  },
+  {
+    "name": "Coq",
+    "year": "2016",
+    "quarter": "3",
+    "count": "885"
+  },
+  {
+    "name": "Dafny",
+    "year": "2016",
+    "quarter": "3",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2016",
+    "quarter": "3",
+    "count": "42"
   },
   {
     "name": "Isabelle",
-    "year": "2015",
+    "year": "2016",
     "quarter": "3",
+    "count": "207"
+  },
+  {
+    "name": "Lean",
+    "year": "2016",
+    "quarter": "3",
+    "count": "148"
+  },
+  {
+    "name": "SMT",
+    "year": "2016",
+    "quarter": "3",
+    "count": "289"
+  },
+  {
+    "name": "TLA",
+    "year": "2016",
+    "quarter": "3",
+    "count": "950"
+  },
+  {
+    "name": "Boogie",
+    "year": "2016",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "Coq",
+    "year": "2016",
+    "quarter": "4",
+    "count": "794"
+  },
+  {
+    "name": "Dafny",
+    "year": "2016",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2016",
+    "quarter": "4",
+    "count": "76"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2016",
+    "quarter": "4",
+    "count": "143"
+  },
+  {
+    "name": "Lean",
+    "year": "2016",
+    "quarter": "4",
+    "count": "300"
+  },
+  {
+    "name": "SMT",
+    "year": "2016",
+    "quarter": "4",
+    "count": "305"
+  },
+  {
+    "name": "TLA",
+    "year": "2016",
+    "quarter": "4",
+    "count": "894"
+  },
+  {
+    "name": "Boogie",
+    "year": "2017",
+    "quarter": "1",
+    "count": "7"
+  },
+  {
+    "name": "Coq",
+    "year": "2017",
+    "quarter": "1",
+    "count": "937"
+  },
+  {
+    "name": "Dafny",
+    "year": "2017",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2017",
+    "quarter": "1",
+    "count": "83"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2017",
+    "quarter": "1",
+    "count": "91"
+  },
+  {
+    "name": "Lean",
+    "year": "2017",
+    "quarter": "1",
+    "count": "501"
+  },
+  {
+    "name": "SMT",
+    "year": "2017",
+    "quarter": "1",
+    "count": "400"
+  },
+  {
+    "name": "TLA",
+    "year": "2017",
+    "quarter": "1",
+    "count": "868"
+  },
+  {
+    "name": "Boogie",
+    "year": "2017",
+    "quarter": "2",
+    "count": "4"
+  },
+  {
+    "name": "Coq",
+    "year": "2017",
+    "quarter": "2",
+    "count": "1415"
+  },
+  {
+    "name": "Dafny",
+    "year": "2017",
+    "quarter": "2",
+    "count": "4"
+  },
+  {
+    "name": "F*",
+    "year": "2017",
+    "quarter": "2",
+    "count": "153"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2017",
+    "quarter": "2",
+    "count": "61"
+  },
+  {
+    "name": "Lean",
+    "year": "2017",
+    "quarter": "2",
+    "count": "285"
+  },
+  {
+    "name": "SMT",
+    "year": "2017",
+    "quarter": "2",
+    "count": "225"
+  },
+  {
+    "name": "TLA",
+    "year": "2017",
+    "quarter": "2",
+    "count": "773"
+  },
+  {
+    "name": "Boogie",
+    "year": "2017",
+    "quarter": "3",
+    "count": "11"
+  },
+  {
+    "name": "Coq",
+    "year": "2017",
+    "quarter": "3",
+    "count": "1142"
+  },
+  {
+    "name": "Dafny",
+    "year": "2017",
+    "quarter": "3",
+    "count": "2"
+  },
+  {
+    "name": "F*",
+    "year": "2017",
+    "quarter": "3",
+    "count": "120"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2017",
+    "quarter": "3",
+    "count": "80"
+  },
+  {
+    "name": "Lean",
+    "year": "2017",
+    "quarter": "3",
+    "count": "172"
+  },
+  {
+    "name": "SMT",
+    "year": "2017",
+    "quarter": "3",
+    "count": "281"
+  },
+  {
+    "name": "TLA",
+    "year": "2017",
+    "quarter": "3",
+    "count": "648"
+  },
+  {
+    "name": "Boogie",
+    "year": "2017",
+    "quarter": "4",
+    "count": "14"
+  },
+  {
+    "name": "Coq",
+    "year": "2017",
+    "quarter": "4",
+    "count": "3358"
+  },
+  {
+    "name": "Dafny",
+    "year": "2017",
+    "quarter": "4",
+    "count": "12"
+  },
+  {
+    "name": "F*",
+    "year": "2017",
+    "quarter": "4",
+    "count": "129"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2017",
+    "quarter": "4",
+    "count": "60"
+  },
+  {
+    "name": "Lean",
+    "year": "2017",
+    "quarter": "4",
+    "count": "128"
+  },
+  {
+    "name": "SMT",
+    "year": "2017",
+    "quarter": "4",
+    "count": "233"
+  },
+  {
+    "name": "TLA",
+    "year": "2017",
+    "quarter": "4",
+    "count": "833"
+  },
+  {
+    "name": "Boogie",
+    "year": "2018",
+    "quarter": "1",
+    "count": "9"
+  },
+  {
+    "name": "Coq",
+    "year": "2018",
+    "quarter": "1",
+    "count": "1074"
+  },
+  {
+    "name": "Dafny",
+    "year": "2018",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2018",
+    "quarter": "1",
+    "count": "75"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2018",
+    "quarter": "1",
+    "count": "32"
+  },
+  {
+    "name": "Lean",
+    "year": "2018",
+    "quarter": "1",
+    "count": "62"
+  },
+  {
+    "name": "SMT",
+    "year": "2018",
+    "quarter": "1",
+    "count": "193"
+  },
+  {
+    "name": "TLA",
+    "year": "2018",
+    "quarter": "1",
+    "count": "553"
+  },
+  {
+    "name": "Boogie",
+    "year": "2018",
+    "quarter": "2",
+    "count": "8"
+  },
+  {
+    "name": "Coq",
+    "year": "2018",
+    "quarter": "2",
+    "count": "1194"
+  },
+  {
+    "name": "Dafny",
+    "year": "2018",
+    "quarter": "2",
+    "count": "2"
+  },
+  {
+    "name": "F*",
+    "year": "2018",
+    "quarter": "2",
+    "count": "324"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2018",
+    "quarter": "2",
+    "count": "25"
+  },
+  {
+    "name": "Lean",
+    "year": "2018",
+    "quarter": "2",
+    "count": "46"
+  },
+  {
+    "name": "SMT",
+    "year": "2018",
+    "quarter": "2",
+    "count": "249"
+  },
+  {
+    "name": "TLA",
+    "year": "2018",
+    "quarter": "2",
+    "count": "726"
+  },
+  {
+    "name": "Boogie",
+    "year": "2018",
+    "quarter": "3",
+    "count": "4"
+  },
+  {
+    "name": "Coq",
+    "year": "2018",
+    "quarter": "3",
+    "count": "1144"
+  },
+  {
+    "name": "Dafny",
+    "year": "2018",
+    "quarter": "3",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2018",
+    "quarter": "3",
+    "count": "105"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2018",
+    "quarter": "3",
+    "count": "32"
+  },
+  {
+    "name": "Lean",
+    "year": "2018",
+    "quarter": "3",
+    "count": "42"
+  },
+  {
+    "name": "SMT",
+    "year": "2018",
+    "quarter": "3",
+    "count": "219"
+  },
+  {
+    "name": "TLA",
+    "year": "2018",
+    "quarter": "3",
+    "count": "1056"
+  },
+  {
+    "name": "Boogie",
+    "year": "2018",
+    "quarter": "4",
+    "count": "1"
+  },
+  {
+    "name": "Coq",
+    "year": "2018",
+    "quarter": "4",
+    "count": "1259"
+  },
+  {
+    "name": "Dafny",
+    "year": "2018",
+    "quarter": "4",
+    "count": "1"
+  },
+  {
+    "name": "F*",
+    "year": "2018",
+    "quarter": "4",
+    "count": "128"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2018",
+    "quarter": "4",
+    "count": "38"
+  },
+  {
+    "name": "Lean",
+    "year": "2018",
+    "quarter": "4",
+    "count": "57"
+  },
+  {
+    "name": "SMT",
+    "year": "2018",
+    "quarter": "4",
+    "count": "318"
+  },
+  {
+    "name": "TLA",
+    "year": "2018",
+    "quarter": "4",
+    "count": "886"
+  },
+  {
+    "name": "Boogie",
+    "year": "2019",
+    "quarter": "1",
+    "count": "6"
+  },
+  {
+    "name": "Coq",
+    "year": "2019",
+    "quarter": "1",
+    "count": "858"
+  },
+  {
+    "name": "Dafny",
+    "year": "2019",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2019",
+    "quarter": "1",
+    "count": "187"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2019",
+    "quarter": "1",
+    "count": "18"
+  },
+  {
+    "name": "Lean",
+    "year": "2019",
+    "quarter": "1",
+    "count": "396"
+  },
+  {
+    "name": "SMT",
+    "year": "2019",
+    "quarter": "1",
+    "count": "321"
+  },
+  {
+    "name": "TLA",
+    "year": "2019",
+    "quarter": "1",
+    "count": "966"
+  },
+  {
+    "name": "Boogie",
+    "year": "2019",
+    "quarter": "2",
+    "count": "2"
+  },
+  {
+    "name": "Coq",
+    "year": "2019",
+    "quarter": "2",
+    "count": "1408"
+  },
+  {
+    "name": "Dafny",
+    "year": "2019",
+    "quarter": "2",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2019",
+    "quarter": "2",
+    "count": "175"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2019",
+    "quarter": "2",
+    "count": "81"
+  },
+  {
+    "name": "Lean",
+    "year": "2019",
+    "quarter": "2",
+    "count": "726"
+  },
+  {
+    "name": "SMT",
+    "year": "2019",
+    "quarter": "2",
+    "count": "505"
+  },
+  {
+    "name": "TLA",
+    "year": "2019",
+    "quarter": "2",
+    "count": "1389"
+  },
+  {
+    "name": "Boogie",
+    "year": "2019",
+    "quarter": "3",
+    "count": "9"
+  },
+  {
+    "name": "Coq",
+    "year": "2019",
+    "quarter": "3",
+    "count": "1211"
+  },
+  {
+    "name": "Dafny",
+    "year": "2019",
+    "quarter": "3",
+    "count": "4"
+  },
+  {
+    "name": "F*",
+    "year": "2019",
+    "quarter": "3",
+    "count": "142"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2019",
+    "quarter": "3",
+    "count": "36"
+  },
+  {
+    "name": "Lean",
+    "year": "2019",
+    "quarter": "3",
+    "count": "689"
+  },
+  {
+    "name": "SMT",
+    "year": "2019",
+    "quarter": "3",
+    "count": "527"
+  },
+  {
+    "name": "TLA",
+    "year": "2019",
+    "quarter": "3",
+    "count": "1730"
+  },
+  {
+    "name": "Boogie",
+    "year": "2019",
+    "quarter": "4",
+    "count": "157"
+  },
+  {
+    "name": "Coq",
+    "year": "2019",
+    "quarter": "4",
+    "count": "1747"
+  },
+  {
+    "name": "Dafny",
+    "year": "2019",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2019",
+    "quarter": "4",
+    "count": "205"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2019",
+    "quarter": "4",
+    "count": "178"
+  },
+  {
+    "name": "Lean",
+    "year": "2019",
+    "quarter": "4",
+    "count": "859"
+  },
+  {
+    "name": "SMT",
+    "year": "2019",
+    "quarter": "4",
+    "count": "496"
+  },
+  {
+    "name": "TLA",
+    "year": "2019",
+    "quarter": "4",
+    "count": "1054"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "1",
+    "count": "55"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "1",
+    "count": "1392"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "1",
+    "count": "127"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "1",
+    "count": "70"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "1",
+    "count": "856"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "1",
+    "count": "479"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "1",
+    "count": "690"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "2",
+    "count": "98"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "2",
+    "count": "2033"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "2",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "2",
+    "count": "278"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "2",
+    "count": "129"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "2",
+    "count": "2293"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "2",
+    "count": "888"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "2",
+    "count": "1286"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "3",
+    "count": "74"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "3",
+    "count": "1598"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "3",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "3",
+    "count": "202"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "3",
+    "count": "97"
+  },
+  {
+    "name": "Lean",
+    "year": "2020",
+    "quarter": "3",
+    "count": "2357"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "3",
+    "count": "572"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "3",
+    "count": "1207"
+  },
+  {
+    "name": "Boogie",
+    "year": "2020",
+    "quarter": "4",
+    "count": "87"
+  },
+  {
+    "name": "Coq",
+    "year": "2020",
+    "quarter": "4",
+    "count": "2004"
+  },
+  {
+    "name": "Dafny",
+    "year": "2020",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2020",
+    "quarter": "4",
+    "count": "155"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2020",
+    "quarter": "4",
     "count": "139"
   },
   {
     "name": "Lean",
-    "year": "2015",
+    "year": "2020",
+    "quarter": "4",
+    "count": "2925"
+  },
+  {
+    "name": "SMT",
+    "year": "2020",
+    "quarter": "4",
+    "count": "497"
+  },
+  {
+    "name": "TLA",
+    "year": "2020",
+    "quarter": "4",
+    "count": "1448"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "1",
+    "count": "149"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "1",
+    "count": "2007"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "1",
+    "count": "247"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "1",
+    "count": "181"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "1",
+    "count": "3574"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "1",
+    "count": "574"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "1",
+    "count": "1640"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "2",
+    "count": "119"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "2",
+    "count": "1907"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "2",
+    "count": "4"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "2",
+    "count": "218"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "2",
+    "count": "135"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "2",
+    "count": "2849"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "2",
+    "count": "380"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "2",
+    "count": "1495"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
     "quarter": "3",
-    "count": "289"
+    "count": "64"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "3",
+    "count": "1398"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "3",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "3",
+    "count": "97"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "3",
+    "count": "96"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "3",
+    "count": "3009"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "3",
+    "count": "484"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "3",
+    "count": "1556"
+  },
+  {
+    "name": "Boogie",
+    "year": "2021",
+    "quarter": "4",
+    "count": "130"
+  },
+  {
+    "name": "Coq",
+    "year": "2021",
+    "quarter": "4",
+    "count": "997"
+  },
+  {
+    "name": "Dafny",
+    "year": "2021",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2021",
+    "quarter": "4",
+    "count": "205"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2021",
+    "quarter": "4",
+    "count": "164"
+  },
+  {
+    "name": "Lean",
+    "year": "2021",
+    "quarter": "4",
+    "count": "2584"
+  },
+  {
+    "name": "SMT",
+    "year": "2021",
+    "quarter": "4",
+    "count": "277"
+  },
+  {
+    "name": "TLA",
+    "year": "2021",
+    "quarter": "4",
+    "count": "1425"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "1",
+    "count": "373"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "1",
+    "count": "1193"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "1",
+    "count": "255"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "1",
+    "count": "190"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "1",
+    "count": "3824"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "1",
+    "count": "504"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "1",
+    "count": "1897"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "2",
+    "count": "2156"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "2",
+    "count": "1112"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "2",
+    "count": "1"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "2",
+    "count": "300"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "2",
+    "count": "110"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "2",
+    "count": "3804"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "2",
+    "count": "434"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "2",
+    "count": "2067"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "3",
+    "count": "5155"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "3",
+    "count": "879"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "3",
+    "count": "1"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "3",
+    "count": "136"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "3",
+    "count": "108"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "3",
+    "count": "3349"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "3",
+    "count": "380"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "3",
+    "count": "1897"
+  },
+  {
+    "name": "Boogie",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1979"
+  },
+  {
+    "name": "Coq",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1203"
+  },
+  {
+    "name": "Dafny",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1"
+  },
+  {
+    "name": "F*",
+    "year": "2022",
+    "quarter": "4",
+    "count": "204"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2022",
+    "quarter": "4",
+    "count": "93"
+  },
+  {
+    "name": "Lean",
+    "year": "2022",
+    "quarter": "4",
+    "count": "2795"
+  },
+  {
+    "name": "SMT",
+    "year": "2022",
+    "quarter": "4",
+    "count": "437"
+  },
+  {
+    "name": "TLA",
+    "year": "2022",
+    "quarter": "4",
+    "count": "1460"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "1",
+    "count": "2348"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "1",
+    "count": "1102"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "1",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "1",
+    "count": "183"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "1",
+    "count": "83"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "1",
+    "count": "1533"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "1",
+    "count": "474"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "1",
+    "count": "1177"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "2",
+    "count": "2271"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "2",
+    "count": "927"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "2",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "2",
+    "count": "296"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "2",
+    "count": "56"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "2",
+    "count": "1221"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "2",
+    "count": "423"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "2",
+    "count": "978"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "3",
+    "count": "2413"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "3",
+    "count": "893"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "3",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "3",
+    "count": "194"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "3",
+    "count": "73"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "3",
+    "count": "342"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "3",
+    "count": "421"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "3",
+    "count": "868"
+  },
+  {
+    "name": "Boogie",
+    "year": "2023",
+    "quarter": "4",
+    "count": "2023"
+  },
+  {
+    "name": "Coq",
+    "year": "2023",
+    "quarter": "4",
+    "count": "1048"
+  },
+  {
+    "name": "Dafny",
+    "year": "2023",
+    "quarter": "4",
+    "count": "0"
+  },
+  {
+    "name": "F*",
+    "year": "2023",
+    "quarter": "4",
+    "count": "249"
+  },
+  {
+    "name": "Isabelle",
+    "year": "2023",
+    "quarter": "4",
+    "count": "102"
+  },
+  {
+    "name": "Lean",
+    "year": "2023",
+    "quarter": "4",
+    "count": "302"
+  },
+  {
+    "name": "SMT",
+    "year": "2023",
+    "quarter": "4",
+    "count": "473"
+  },
+  {
+    "name": "TLA",
+    "year": "2023",
+    "quarter": "4",
+    "count": "848"
   }
 ]
