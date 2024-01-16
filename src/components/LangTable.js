@@ -17,7 +17,7 @@ import _ from "lodash/fp"
 export default function LangTable({store, hist, table}) {
 
     const [state, setState] = useState({ data: []})
-    const [numberState, setNumberState] = useState(8)
+    const [numberState] = useState(8)
 
     const style = {
         margin: "auto",
@@ -246,20 +246,16 @@ export default function LangTable({store, hist, table}) {
     /**
      * Is called when the input range change, to update the state
      */
-    function handleInput(event) {
+    // function handleInput(event) {
         
-        if(numberState<=0){
-            setNumberState(0);
-        }
-        setNumberState(event.target.value);
-    }
+    //     if(numberState<=0){
+    //         setNumberState(0);
+    //     }
+    //     setNumberState(event.target.value);
+    // }
     if (state.data.length <= 0) return noDataAvailableYet()
     return (
         <div style={style}>
-            <div className="inputBox">
-                <label>Number of languages: <b>{numberState}</b> </label>
-                <input onChange={handleInput} min="2" max="8" className="inputBox__input" type="range" value={numberState}  ></input>
-            </div>
 
             <BootstrapTable
                 condensed
