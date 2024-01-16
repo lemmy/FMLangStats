@@ -270,17 +270,10 @@ export default function LangTable({store, hist, table}) {
                 wrapperClasses="table-responsive"
             >
                 <TableHeaderColumn
-                    width="100px"
-                    dataAlign="center"
-                    dataField="id"
-                    isKey={true}
-                >
-                    {"# Ranking"}
-                </TableHeaderColumn>
-                <TableHeaderColumn
                     width={"230px"}
                     dataAlign="center"
                     dataField="name"
+                    isKey={true}
                 >
                     {"Programming Language"}
                 </TableHeaderColumn>
