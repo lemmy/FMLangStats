@@ -58,7 +58,7 @@ const queryBuilder = (table) => {
     ON 
         l.repo_name = e.repo.name
     WHERE 
-        language.name IN ('F*', 'TLA', 'Dafny', 'Lean', 'SMT', 'Coq', 'Isabelle', 'Boogie')
+        language.name IN ('F*', 'TLA', 'Dafny', 'Lean', 'Coq', 'Isabelle')
     GROUP BY 
         language.name, year, quarter;`
 

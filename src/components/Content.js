@@ -36,12 +36,6 @@ export default function Content() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="https://next.ossinsight.io/analyze/boogie-org?period=past_12_months#star-growth">Boogie</a></td>
-                        <td><a href="https://somsubhra.github.io/github-release-stats/?username=boogie-org&repository=boogie">Boogie</a></td>
-                        <td><a href="https://github.com/search?q=language%3Aboogie&type=code">Boogie</a></td>
-                        <td></td>
-                    </tr>
-                    <tr>
                         <td><a href="https://next.ossinsight.io/analyze/coq?period=past_12_months#star-growth">Coq</a></td>
                         <td><a href="https://somsubhra.github.io/github-release-stats/?username=coq&repository=coq">Coq</a></td>
                         <td><a href="https://github.com/search?q=language%3coq&type=code">Coq</a></td>
@@ -69,12 +63,6 @@ export default function Content() {
                         <td><a href="https://next.ossinsight.io/analyze/leanprover?period=past_12_months#star-growth">Lean</a></td>
                         <td><a href="https://somsubhra.github.io/github-release-stats/?username=leanprover&repository=lean4">Lean</a></td>
                         <td><a href="https://github.com/search?q=language%3Alean&type=code">Lean</a></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://next.ossinsight.io/analyze/z3prover?period=past_12_months#star-growth">SMT</a></td>
-                        <td><a href="https://somsubhra.github.io/github-release-stats/?username=z3prover&repository=z3prover">SMT</a></td>
-                        <td><a href="https://github.com/search?q=language%3Asmt&type=code">SMT</a></td>
                         <td></td>
                     </tr>
                     <tr>

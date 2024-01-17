@@ -1,15 +1,5 @@
 [
   {
-    "name": "Boogie",
-    "year": "2015",
-    "quarter": "1",
-    "pull_events": "0",
-    "push_events": "11",
-    "issue_events": "0",
-    "star_events": "0",
-    "count": "11"
-  },
-  {
     "name": "Coq",
     "year": "2015",
     "quarter": "1",
@@ -50,16 +40,6 @@
     "count": "3369"
   },
   {
-    "name": "SMT",
-    "year": "2015",
-    "quarter": "1",
-    "pull_events": "174",
-    "push_events": "1726",
-    "issue_events": "196",
-    "star_events": "66",
-    "count": "2162"
-  },
-  {
     "name": "TLA",
     "year": "2015",
     "quarter": "1",
@@ -68,16 +48,6 @@
     "issue_events": "28",
     "star_events": "635",
     "count": "3279"
-  },
-  {
-    "name": "Boogie",
-    "year": "2015",
-    "quarter": "2",
-    "pull_events": "0",
-    "push_events": "0",
-    "issue_events": "0",
-    "star_events": "1",
-    "count": "1"
   },
   {
     "name": "Coq",
@@ -130,16 +100,6 @@
     "count": "3990"
   },
   {
-    "name": "SMT",
-    "year": "2015",
-    "quarter": "2",
-    "pull_events": "200",
-    "push_events": "2576",
-    "issue_events": "525",
-    "star_events": "3817",
-    "count": "7118"
-  },
-  {
     "name": "TLA",
     "year": "2015",
     "quarter": "2",
@@ -148,16 +108,6 @@
     "issue_events": "101",
     "star_events": "665",
     "count": "4141"
-  },
-  {
-    "name": "Boogie",
-    "year": "2015",
-    "quarter": "3",
-    "pull_events": "11",
-    "push_events": "54",
-    "issue_events": "0",
-    "star_events": "0",
-    "count": "65"
   },
   {
     "name": "Coq",
@@ -210,16 +160,6 @@
     "count": "4042"
   },
   {
-    "name": "SMT",
-    "year": "2015",
-    "quarter": "3",
-    "pull_events": "237",
-    "push_events": "2114",
-    "issue_events": "504",
-    "star_events": "797",
-    "count": "3652"
-  },
-  {
     "name": "TLA",
     "year": "2015",
     "quarter": "3",
@@ -228,16 +168,6 @@
     "issue_events": "49",
     "star_events": "666",
     "count": "3176"
-  },
-  {
-    "name": "Boogie",
-    "year": "2015",
-    "quarter": "4",
-    "pull_events": "0",
-    "push_events": "56",
-    "issue_events": "0",
-    "star_events": "0",
-    "count": "56"
   },
   {
     "name": "Coq",
@@ -288,16 +218,6 @@
     "issue_events": "419",
     "star_events": "740",
     "count": "4632"
-  },
-  {
-    "name": "SMT",
-    "year": "2015",
-    "quarter": "4",
-    "pull_events": "199",
-    "push_events": "2813",
-    "issue_events": "499",
-    "star_events": "567",
-    "count": "4078"
   },
   {
     "name": "TLA",
@@ -360,16 +280,6 @@
     "count": "3833"
   },
   {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "1",
-    "pull_events": "452",
-    "push_events": "3427",
-    "issue_events": "600",
-    "star_events": "615",
-    "count": "5094"
-  },
-  {
     "name": "TLA",
     "year": "2016",
     "quarter": "1",
@@ -378,16 +288,6 @@
     "issue_events": "60",
     "star_events": "766",
     "count": "4619"
-  },
-  {
-    "name": "Boogie",
-    "year": "2016",
-    "quarter": "2",
-    "pull_events": "8",
-    "push_events": "78",
-    "issue_events": "34",
-    "star_events": "6",
-    "count": "126"
   },
   {
     "name": "Coq",
@@ -440,16 +340,6 @@
     "count": "3498"
   },
   {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "2",
-    "pull_events": "324",
-    "push_events": "3006",
-    "issue_events": "403",
-    "star_events": "580",
-    "count": "4313"
-  },
-  {
     "name": "TLA",
     "year": "2016",
     "quarter": "2",
@@ -458,16 +348,6 @@
     "issue_events": "200",
     "star_events": "1579",
     "count": "6658"
-  },
-  {
-    "name": "Boogie",
-    "year": "2016",
-    "quarter": "3",
-    "pull_events": "2",
-    "push_events": "74",
-    "issue_events": "15",
-    "star_events": "0",
-    "count": "91"
   },
   {
     "name": "Coq",
@@ -520,16 +400,6 @@
     "count": "3612"
   },
   {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "3",
-    "pull_events": "289",
-    "push_events": "3281",
-    "issue_events": "473",
-    "star_events": "655",
-    "count": "4698"
-  },
-  {
     "name": "TLA",
     "year": "2016",
     "quarter": "3",
@@ -538,16 +408,6 @@
     "issue_events": "382",
     "star_events": "969",
     "count": "6578"
-  },
-  {
-    "name": "Boogie",
-    "year": "2016",
-    "quarter": "4",
-    "pull_events": "0",
-    "push_events": "36",
-    "issue_events": "2",
-    "star_events": "3",
-    "count": "41"
   },
   {
     "name": "Coq",
@@ -600,16 +460,6 @@
     "count": "3266"
   },
   {
-    "name": "SMT",
-    "year": "2016",
-    "quarter": "4",
-    "pull_events": "305",
-    "push_events": "2222",
-    "issue_events": "366",
-    "star_events": "560",
-    "count": "3453"
-  },
-  {
     "name": "TLA",
     "year": "2016",
     "quarter": "4",
@@ -618,16 +468,6 @@
     "issue_events": "212",
     "star_events": "1079",
     "count": "7229"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "1",
-    "pull_events": "7",
-    "push_events": "144",
-    "issue_events": "7",
-    "star_events": "13",
-    "count": "171"
   },
   {
     "name": "Coq",
@@ -680,16 +520,6 @@
     "count": "4435"
   },
   {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "1",
-    "pull_events": "400",
-    "push_events": "2932",
-    "issue_events": "402",
-    "star_events": "519",
-    "count": "4253"
-  },
-  {
     "name": "TLA",
     "year": "2017",
     "quarter": "1",
@@ -698,16 +528,6 @@
     "issue_events": "237",
     "star_events": "1072",
     "count": "7616"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "2",
-    "pull_events": "4",
-    "push_events": "120",
-    "issue_events": "8",
-    "star_events": "9",
-    "count": "141"
   },
   {
     "name": "Coq",
@@ -760,16 +580,6 @@
     "count": "4203"
   },
   {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "2",
-    "pull_events": "225",
-    "push_events": "2818",
-    "issue_events": "317",
-    "star_events": "671",
-    "count": "4031"
-  },
-  {
     "name": "TLA",
     "year": "2017",
     "quarter": "2",
@@ -778,16 +588,6 @@
     "issue_events": "345",
     "star_events": "1067",
     "count": "8785"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "3",
-    "pull_events": "11",
-    "push_events": "199",
-    "issue_events": "8",
-    "star_events": "41",
-    "count": "259"
   },
   {
     "name": "Coq",
@@ -840,16 +640,6 @@
     "count": "3551"
   },
   {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "3",
-    "pull_events": "281",
-    "push_events": "2615",
-    "issue_events": "366",
-    "star_events": "682",
-    "count": "3944"
-  },
-  {
     "name": "TLA",
     "year": "2017",
     "quarter": "3",
@@ -858,16 +648,6 @@
     "issue_events": "214",
     "star_events": "1211",
     "count": "8429"
-  },
-  {
-    "name": "Boogie",
-    "year": "2017",
-    "quarter": "4",
-    "pull_events": "14",
-    "push_events": "150",
-    "issue_events": "15",
-    "star_events": "14",
-    "count": "193"
   },
   {
     "name": "Coq",
@@ -920,16 +700,6 @@
     "count": "2601"
   },
   {
-    "name": "SMT",
-    "year": "2017",
-    "quarter": "4",
-    "pull_events": "233",
-    "push_events": "2490",
-    "issue_events": "390",
-    "star_events": "669",
-    "count": "3782"
-  },
-  {
     "name": "TLA",
     "year": "2017",
     "quarter": "4",
@@ -938,16 +708,6 @@
     "issue_events": "449",
     "star_events": "2146",
     "count": "8704"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "1",
-    "pull_events": "9",
-    "push_events": "179",
-    "issue_events": "2",
-    "star_events": "4",
-    "count": "194"
   },
   {
     "name": "Coq",
@@ -1000,16 +760,6 @@
     "count": "1639"
   },
   {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "1",
-    "pull_events": "193",
-    "push_events": "1356",
-    "issue_events": "249",
-    "star_events": "378",
-    "count": "2176"
-  },
-  {
     "name": "TLA",
     "year": "2018",
     "quarter": "1",
@@ -1018,16 +768,6 @@
     "issue_events": "285",
     "star_events": "1860",
     "count": "6122"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "2",
-    "pull_events": "8",
-    "push_events": "250",
-    "issue_events": "11",
-    "star_events": "2",
-    "count": "271"
   },
   {
     "name": "Coq",
@@ -1080,16 +820,6 @@
     "count": "1784"
   },
   {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "2",
-    "pull_events": "249",
-    "push_events": "1873",
-    "issue_events": "400",
-    "star_events": "602",
-    "count": "3124"
-  },
-  {
     "name": "TLA",
     "year": "2018",
     "quarter": "2",
@@ -1098,16 +828,6 @@
     "issue_events": "523",
     "star_events": "2164",
     "count": "7533"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "3",
-    "pull_events": "4",
-    "push_events": "318",
-    "issue_events": "14",
-    "star_events": "11",
-    "count": "347"
   },
   {
     "name": "Coq",
@@ -1160,16 +880,6 @@
     "count": "1985"
   },
   {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "3",
-    "pull_events": "219",
-    "push_events": "1043",
-    "issue_events": "337",
-    "star_events": "504",
-    "count": "2103"
-  },
-  {
     "name": "TLA",
     "year": "2018",
     "quarter": "3",
@@ -1178,16 +888,6 @@
     "issue_events": "603",
     "star_events": "1250",
     "count": "13815"
-  },
-  {
-    "name": "Boogie",
-    "year": "2018",
-    "quarter": "4",
-    "pull_events": "1",
-    "push_events": "77",
-    "issue_events": "8",
-    "star_events": "10",
-    "count": "96"
   },
   {
     "name": "Coq",
@@ -1240,16 +940,6 @@
     "count": "2203"
   },
   {
-    "name": "SMT",
-    "year": "2018",
-    "quarter": "4",
-    "pull_events": "318",
-    "push_events": "1343",
-    "issue_events": "287",
-    "star_events": "556",
-    "count": "2504"
-  },
-  {
     "name": "TLA",
     "year": "2018",
     "quarter": "4",
@@ -1258,16 +948,6 @@
     "issue_events": "477",
     "star_events": "1222",
     "count": "23300"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "1",
-    "pull_events": "6",
-    "push_events": "43",
-    "issue_events": "15",
-    "star_events": "16",
-    "count": "80"
   },
   {
     "name": "Coq",
@@ -1320,16 +1000,6 @@
     "count": "2282"
   },
   {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "1",
-    "pull_events": "321",
-    "push_events": "1366",
-    "issue_events": "323",
-    "star_events": "605",
-    "count": "2615"
-  },
-  {
     "name": "TLA",
     "year": "2019",
     "quarter": "1",
@@ -1338,16 +1008,6 @@
     "issue_events": "296",
     "star_events": "774",
     "count": "17422"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "2",
-    "pull_events": "2",
-    "push_events": "45",
-    "issue_events": "6",
-    "star_events": "27",
-    "count": "80"
   },
   {
     "name": "Coq",
@@ -1400,16 +1060,6 @@
     "count": "4591"
   },
   {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "2",
-    "pull_events": "505",
-    "push_events": "1636",
-    "issue_events": "503",
-    "star_events": "681",
-    "count": "3325"
-  },
-  {
     "name": "TLA",
     "year": "2019",
     "quarter": "2",
@@ -1418,16 +1068,6 @@
     "issue_events": "425",
     "star_events": "1447",
     "count": "25537"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "3",
-    "pull_events": "9",
-    "push_events": "24",
-    "issue_events": "13",
-    "star_events": "11",
-    "count": "57"
   },
   {
     "name": "Coq",
@@ -1480,16 +1120,6 @@
     "count": "4242"
   },
   {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "3",
-    "pull_events": "527",
-    "push_events": "1416",
-    "issue_events": "452",
-    "star_events": "671",
-    "count": "3066"
-  },
-  {
     "name": "TLA",
     "year": "2019",
     "quarter": "3",
@@ -1498,16 +1128,6 @@
     "issue_events": "312",
     "star_events": "1192",
     "count": "25431"
-  },
-  {
-    "name": "Boogie",
-    "year": "2019",
-    "quarter": "4",
-    "pull_events": "157",
-    "push_events": "176",
-    "issue_events": "205",
-    "star_events": "100",
-    "count": "638"
   },
   {
     "name": "Coq",
@@ -1560,16 +1180,6 @@
     "count": "4993"
   },
   {
-    "name": "SMT",
-    "year": "2019",
-    "quarter": "4",
-    "pull_events": "496",
-    "push_events": "1513",
-    "issue_events": "493",
-    "star_events": "759",
-    "count": "3261"
-  },
-  {
     "name": "TLA",
     "year": "2019",
     "quarter": "4",
@@ -1578,16 +1188,6 @@
     "issue_events": "319",
     "star_events": "1193",
     "count": "22367"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "1",
-    "pull_events": "55",
-    "push_events": "84",
-    "issue_events": "34",
-    "star_events": "76",
-    "count": "249"
   },
   {
     "name": "Coq",
@@ -1640,16 +1240,6 @@
     "count": "4478"
   },
   {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "1",
-    "pull_events": "479",
-    "push_events": "1412",
-    "issue_events": "423",
-    "star_events": "517",
-    "count": "2831"
-  },
-  {
     "name": "TLA",
     "year": "2020",
     "quarter": "1",
@@ -1658,16 +1248,6 @@
     "issue_events": "295",
     "star_events": "630",
     "count": "15057"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "2",
-    "pull_events": "98",
-    "push_events": "92",
-    "issue_events": "60",
-    "star_events": "131",
-    "count": "381"
   },
   {
     "name": "Coq",
@@ -1720,16 +1300,6 @@
     "count": "12522"
   },
   {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "2",
-    "pull_events": "888",
-    "push_events": "1880",
-    "issue_events": "859",
-    "star_events": "732",
-    "count": "4359"
-  },
-  {
     "name": "TLA",
     "year": "2020",
     "quarter": "2",
@@ -1738,16 +1308,6 @@
     "issue_events": "463",
     "star_events": "1021",
     "count": "22035"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "3",
-    "pull_events": "74",
-    "push_events": "83",
-    "issue_events": "69",
-    "star_events": "94",
-    "count": "320"
   },
   {
     "name": "Coq",
@@ -1800,16 +1360,6 @@
     "count": "14655"
   },
   {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "3",
-    "pull_events": "572",
-    "push_events": "1454",
-    "issue_events": "480",
-    "star_events": "605",
-    "count": "3111"
-  },
-  {
     "name": "TLA",
     "year": "2020",
     "quarter": "3",
@@ -1818,16 +1368,6 @@
     "issue_events": "354",
     "star_events": "1001",
     "count": "18230"
-  },
-  {
-    "name": "Boogie",
-    "year": "2020",
-    "quarter": "4",
-    "pull_events": "87",
-    "push_events": "69",
-    "issue_events": "88",
-    "star_events": "84",
-    "count": "328"
   },
   {
     "name": "Coq",
@@ -1880,16 +1420,6 @@
     "count": "16132"
   },
   {
-    "name": "SMT",
-    "year": "2020",
-    "quarter": "4",
-    "pull_events": "497",
-    "push_events": "1026",
-    "issue_events": "419",
-    "star_events": "1096",
-    "count": "3038"
-  },
-  {
     "name": "TLA",
     "year": "2020",
     "quarter": "4",
@@ -1898,16 +1428,6 @@
     "issue_events": "330",
     "star_events": "857",
     "count": "19249"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "149",
-    "push_events": "153",
-    "issue_events": "121",
-    "star_events": "122",
-    "count": "545"
   },
   {
     "name": "Coq",
@@ -1960,16 +1480,6 @@
     "count": "18903"
   },
   {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "1",
-    "pull_events": "574",
-    "push_events": "1077",
-    "issue_events": "564",
-    "star_events": "654",
-    "count": "2869"
-  },
-  {
     "name": "TLA",
     "year": "2021",
     "quarter": "1",
@@ -1978,16 +1488,6 @@
     "issue_events": "415",
     "star_events": "986",
     "count": "18066"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "2",
-    "pull_events": "119",
-    "push_events": "65",
-    "issue_events": "54",
-    "star_events": "94",
-    "count": "332"
   },
   {
     "name": "Coq",
@@ -2040,16 +1540,6 @@
     "count": "15213"
   },
   {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "2",
-    "pull_events": "380",
-    "push_events": "848",
-    "issue_events": "360",
-    "star_events": "526",
-    "count": "2114"
-  },
-  {
     "name": "TLA",
     "year": "2021",
     "quarter": "2",
@@ -2058,16 +1548,6 @@
     "issue_events": "445",
     "star_events": "830",
     "count": "7117"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "3",
-    "pull_events": "64",
-    "push_events": "98",
-    "issue_events": "41",
-    "star_events": "93",
-    "count": "296"
   },
   {
     "name": "Coq",
@@ -2120,16 +1600,6 @@
     "count": "17093"
   },
   {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "3",
-    "pull_events": "484",
-    "push_events": "828",
-    "issue_events": "465",
-    "star_events": "594",
-    "count": "2371"
-  },
-  {
     "name": "TLA",
     "year": "2021",
     "quarter": "3",
@@ -2138,16 +1608,6 @@
     "issue_events": "452",
     "star_events": "829",
     "count": "5632"
-  },
-  {
-    "name": "Boogie",
-    "year": "2021",
-    "quarter": "4",
-    "pull_events": "130",
-    "push_events": "138",
-    "issue_events": "60",
-    "star_events": "78",
-    "count": "406"
   },
   {
     "name": "Coq",
@@ -2200,16 +1660,6 @@
     "count": "16234"
   },
   {
-    "name": "SMT",
-    "year": "2021",
-    "quarter": "4",
-    "pull_events": "277",
-    "push_events": "594",
-    "issue_events": "240",
-    "star_events": "550",
-    "count": "1661"
-  },
-  {
     "name": "TLA",
     "year": "2021",
     "quarter": "4",
@@ -2218,16 +1668,6 @@
     "issue_events": "293",
     "star_events": "741",
     "count": "5093"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "373",
-    "push_events": "421",
-    "issue_events": "125",
-    "star_events": "461",
-    "count": "1380"
   },
   {
     "name": "Coq",
@@ -2280,16 +1720,6 @@
     "count": "22001"
   },
   {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "1",
-    "pull_events": "504",
-    "push_events": "1024",
-    "issue_events": "325",
-    "star_events": "921",
-    "count": "2774"
-  },
-  {
     "name": "TLA",
     "year": "2022",
     "quarter": "1",
@@ -2298,16 +1728,6 @@
     "issue_events": "457",
     "star_events": "894",
     "count": "7051"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "2",
-    "pull_events": "2156",
-    "push_events": "4216",
-    "issue_events": "421",
-    "star_events": "2053",
-    "count": "8846"
   },
   {
     "name": "Coq",
@@ -2360,16 +1780,6 @@
     "count": "20952"
   },
   {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "2",
-    "pull_events": "434",
-    "push_events": "742",
-    "issue_events": "310",
-    "star_events": "726",
-    "count": "2212"
-  },
-  {
     "name": "TLA",
     "year": "2022",
     "quarter": "2",
@@ -2378,16 +1788,6 @@
     "issue_events": "315",
     "star_events": "947",
     "count": "6892"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "3",
-    "pull_events": "5155",
-    "push_events": "9349",
-    "issue_events": "730",
-    "star_events": "1723",
-    "count": "16957"
   },
   {
     "name": "Coq",
@@ -2440,16 +1840,6 @@
     "count": "19182"
   },
   {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "3",
-    "pull_events": "380",
-    "push_events": "860",
-    "issue_events": "290",
-    "star_events": "559",
-    "count": "2089"
-  },
-  {
     "name": "TLA",
     "year": "2022",
     "quarter": "3",
@@ -2458,16 +1848,6 @@
     "issue_events": "362",
     "star_events": "752",
     "count": "5748"
-  },
-  {
-    "name": "Boogie",
-    "year": "2022",
-    "quarter": "4",
-    "pull_events": "1979",
-    "push_events": "4316",
-    "issue_events": "632",
-    "star_events": "1048",
-    "count": "7975"
   },
   {
     "name": "Coq",
@@ -2520,16 +1900,6 @@
     "count": "15514"
   },
   {
-    "name": "SMT",
-    "year": "2022",
-    "quarter": "4",
-    "pull_events": "437",
-    "push_events": "700",
-    "issue_events": "286",
-    "star_events": "684",
-    "count": "2107"
-  },
-  {
     "name": "TLA",
     "year": "2022",
     "quarter": "4",
@@ -2538,16 +1908,6 @@
     "issue_events": "367",
     "star_events": "663",
     "count": "4559"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "1",
-    "pull_events": "2348",
-    "push_events": "5481",
-    "issue_events": "597",
-    "star_events": "544",
-    "count": "8970"
   },
   {
     "name": "Coq",
@@ -2600,16 +1960,6 @@
     "count": "9362"
   },
   {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "1",
-    "pull_events": "474",
-    "push_events": "718",
-    "issue_events": "324",
-    "star_events": "541",
-    "count": "2057"
-  },
-  {
     "name": "TLA",
     "year": "2023",
     "quarter": "1",
@@ -2618,16 +1968,6 @@
     "issue_events": "451",
     "star_events": "699",
     "count": "3891"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "2",
-    "pull_events": "2271",
-    "push_events": "6799",
-    "issue_events": "432",
-    "star_events": "414",
-    "count": "9916"
   },
   {
     "name": "Coq",
@@ -2680,16 +2020,6 @@
     "count": "7171"
   },
   {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "2",
-    "pull_events": "423",
-    "push_events": "704",
-    "issue_events": "252",
-    "star_events": "721",
-    "count": "2100"
-  },
-  {
     "name": "TLA",
     "year": "2023",
     "quarter": "2",
@@ -2698,16 +2028,6 @@
     "issue_events": "471",
     "star_events": "711",
     "count": "3409"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "3",
-    "pull_events": "2413",
-    "push_events": "5974",
-    "issue_events": "327",
-    "star_events": "292",
-    "count": "9006"
   },
   {
     "name": "Coq",
@@ -2760,16 +2080,6 @@
     "count": "2152"
   },
   {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "3",
-    "pull_events": "421",
-    "push_events": "795",
-    "issue_events": "270",
-    "star_events": "632",
-    "count": "2118"
-  },
-  {
     "name": "TLA",
     "year": "2023",
     "quarter": "3",
@@ -2778,16 +2088,6 @@
     "issue_events": "393",
     "star_events": "586",
     "count": "2822"
-  },
-  {
-    "name": "Boogie",
-    "year": "2023",
-    "quarter": "4",
-    "pull_events": "2023",
-    "push_events": "4714",
-    "issue_events": "339",
-    "star_events": "247",
-    "count": "7323"
   },
   {
     "name": "Coq",
@@ -2838,16 +2138,6 @@
     "issue_events": "112",
     "star_events": "833",
     "count": "1620"
-  },
-  {
-    "name": "SMT",
-    "year": "2023",
-    "quarter": "4",
-    "pull_events": "473",
-    "push_events": "1011",
-    "issue_events": "241",
-    "star_events": "642",
-    "count": "2367"
   },
   {
     "name": "TLA",
